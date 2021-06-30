@@ -1,0 +1,4 @@
+[submodule "segment-routing/public"]
+	path = segment-routing/public
+	url = git@github.com:INSRapperswil/segment-routing-ch.github.io.git
+	branch = main

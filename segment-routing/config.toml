@@ -1,0 +1,4 @@
+baseURL = "https://insrapperswil.github.io/segment-routing-ch.github.io/"
+languageCode = "en-us"
+title = "Segment Routing"
+theme = "bigspring-hugo-startup-theme"
