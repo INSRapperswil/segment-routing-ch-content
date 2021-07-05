@@ -1,0 +1,16 @@
+######################## default configuration ####################
+baseURL = "https://segment-routing.ch/"
+title = "Segment Routing"
+languageCode = "en-us"
+theme = "bigspring-hugo-startup-theme"
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true

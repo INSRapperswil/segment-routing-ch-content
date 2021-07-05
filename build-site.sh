@@ -4,8 +4,9 @@
 cd segment-routing/public
 git pull
 
-# delete everything in public except .git
-find * -path ./.git -prune -o -exec rm -rf {} \; 2> /dev/null
+# delete everything in public except .git and CNAME
+shopt -s extglob
+rm -rf !('.git/*'|'CNAME')
 
 #build site
 cd ..
