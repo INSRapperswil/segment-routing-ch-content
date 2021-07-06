@@ -2,3 +2,7 @@
 	path = segment-routing/public
 	url = git@github.com:INSRapperswil/segment-routing-ch.github.io.git
 	branch = main
+[submodule "segment-routing/themes/segment-routing-ch-theme"]
+	path = segment-routing/themes/segment-routing-ch-theme
+	url = git@github.com:INSRapperswil/segment-routing-ch-theme.git
+	branch = main

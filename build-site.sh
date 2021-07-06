@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#update repository
+#update deployment repository
 cd segment-routing/public
 git pull
 
