@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Contact Us"
-    link : "contact"
+    link : "about-us"
 
 ##################### Feature ##########################
 feature:
