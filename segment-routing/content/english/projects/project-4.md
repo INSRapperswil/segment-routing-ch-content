@@ -2,9 +2,9 @@
 title: "Adversus is a web-based dialer and practical CRM solution P4"
 date: 2012-04-18T10:07:21+06:00
 # post image
-image: "images/projects/project-4-1.png"
+image: "images/projects/project-4/project-4-1.png"
 sliderImages: 
-  - "images/projects/project-4-1.png"
+  - "images/projects/project-4/project-4-1.png"
 # post type (regular/featured)
 type: "regular"
 # meta description

@@ -2,9 +2,9 @@
 title: "screens with built in Present and Dismiss animations. P3"
 date: 2015-04-18T10:07:21+06:00
 # post image
-image: "images/projects/project-3-1.png"
+image: "images/projects/project-3/project-3-1.png"
 sliderImages: 
-  - "images/projects/project-3-1.png"
+  - "images/projects/project-3/project-3-1.png"
 # post type (regular/featured)
 type: "regular"
 # meta description

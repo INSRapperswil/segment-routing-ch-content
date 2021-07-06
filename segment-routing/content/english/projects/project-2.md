@@ -2,9 +2,9 @@
 title: "Pump-up the team morale and celebrate the excellence P2"
 date: 2010-04-18T10:07:21+06:00
 # post image
-image: "images/projects/project-2-1.png"
+image: "images/projects/project-2/project-2-1.png"
 sliderImages: 
-  - "images/projects/project-2-1.png"
+  - "images/projects/project-2/project-2-1.png"
 # post type (regular/featured)
 type: "regular"
 # meta description

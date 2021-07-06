@@ -2,7 +2,7 @@
 title: "Adversus is a web-based dialer and practical CRM solution"
 date: 2012-04-18T10:07:21+06:00
 # post image
-image: "images/articles/article-4.jpg"
+image: "images/articles/article-4/article-4.jpg"
 # post type (regular/featured)
 type: "regular"
 # show article on homepage

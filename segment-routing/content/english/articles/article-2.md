@@ -2,7 +2,7 @@
 title: "Pump-up the team morale and celebrate the excellence"
 date: 2010-04-18T10:07:21+06:00
 # post image
-image: "images/articles/article-2.jpg"
+image: "images/articles/article-2/article-2.jpg"
 # post type (regular/featured)
 type: "regular"
 # show article on homepage
