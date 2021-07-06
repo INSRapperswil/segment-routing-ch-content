@@ -136,7 +136,9 @@ This is called front matter, and is simply the files metadata written in `YAML`.
 	- If set to `true`, the article is shown on the homepage. You can show as many articles as you want on the homepage.
 - `description`
 	- This string is the meta description that is used by search engines to provide users with more information on the website.
-![Meta Description](https://raw.githubusercontent.com/INSRapperswil/segment-routing-ch-source/master/images/meta-description.png)
+
+<img src="https://raw.githubusercontent.com/INSRapperswil/segment-routing-ch-source/master/images/meta-description.png" alt="Meta Description" width="800px"/>
+
 - `draft`
 	- If set to `true`, it will only show up during development, but not when the website is deployed. Even if a draft is pushed to the deployment server, it is not accessible through the internet.
 - `buttonLabel`
