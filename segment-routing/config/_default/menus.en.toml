@@ -5,61 +5,61 @@ url = ""
 weight = 1
 
 [[main]]
-name = "Segment Routing"
-url = "segment-routing"
+name = "Articles"
+url = "articles"
 weight = 2
 
 [[main]]
-name = "Jalapeño"
-url = "jalapeno"
+name = "Projects"
+url = "projects"
 weight = 3
 
 [[main]]
-name = "SR-Apps"
-url = "sr-apps"
+name = "Courses"
+url = "courses"
 weight = 4
 
 [[main]]
-name = "INS"
-url = "ins"
+name = "About Us"
+url = "about-us"
 weight = 5
 
 # footer menu left
 [[footer_left]]
-name = "About Us"
+name = "tbd"
 url = "#"
 
 [[footer_left]]
-name = "Quick Start"
+name = "tbd"
 url = "#"
 
 [[footer_left]]
-name = "Pricing"
-url = "pricing"
+name = "tbd"
+url = "#"
 
 
 # footer menu middle
 [[footer_middle]]
-name = "Pricing"
-url = "pricing"
-
-[[footer_middle]]
-name = "Platform"
+name = "tbd"
 url = "#"
 
 [[footer_middle]]
-name = "Features"
+name = "tbd"
+url = "#"
+
+[[footer_middle]]
+name = "tbd"
 url = "#"
 
 # footer menu right
 [[footer_right]]
-name = "Privacy Policy"
-url = "privacy-policy"
+name = "tbd"
+url = "#"
 
 [[footer_right]]
-name = "Terms & Conditions"
-url = "terms-conditions"
+name = "tbd"
+url = "#"
 
 [[footer_right]]
-name = "FAQ"
-url = "faq"
+name = "tbd"
+url = "#"
