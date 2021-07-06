@@ -26,40 +26,12 @@ weight = 5
 
 # footer menu left
 [[footer_left]]
-name = "tbd"
-url = "#"
+name = "INS Institute for Networked Solutions"
+url = "about-us"
+weight = 1
 
+# footer menu left
 [[footer_left]]
-name = "tbd"
-url = "#"
+name = "8640 Rapperswil, Switzerland"
+weight = 2
 
-[[footer_left]]
-name = "tbd"
-url = "#"
-
-
-# footer menu middle
-[[footer_middle]]
-name = "tbd"
-url = "#"
-
-[[footer_middle]]
-name = "tbd"
-url = "#"
-
-[[footer_middle]]
-name = "tbd"
-url = "#"
-
-# footer menu right
-[[footer_right]]
-name = "tbd"
-url = "#"
-
-[[footer_right]]
-name = "tbd"
-url = "#"
-
-[[footer_right]]
-name = "tbd"
-url = "#"

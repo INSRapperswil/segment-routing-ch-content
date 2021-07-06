@@ -1,12 +1,12 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Let us solve your critical website <br> development challenges"
-  image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  title : "Segment Routing by INS"
+  image : "images/banner-art.jpg"
+  content : "At the INS Institute for Networked Solutions in eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
   button:
     enable : true
-    label : "Contact With Us"
+    label : "Contact Us"
     link : "contact"
 
 ##################### Feature ##########################
@@ -16,31 +16,20 @@ feature:
   feature_item:
     # feature item loop
     - name : "Projects"
-      icon : "fas fa-code"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      icon : "fas fa-file-code"
+      content : "Want to know what we are doing? Have a look at our projects!"
       link : "projects"
       
     # feature item loop
     - name : "Courses"
-      icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      icon : "fas fa-chalkboard-teacher"
+      content : "Check out our courses on Segment Routing and much more!"
       link : "courses"
       
     # feature item loop
     - name : "The Team"
-      icon : "fas fa-user-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      icon : "fas fa-users"
+      content : "Highly experienced, practiced and motivated."
       link : "about-us"
       
-
-##################### Call to action #####################
-call_to_action:
-  enable : true
-  title : "Ready to get started?"
-  image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
 ---

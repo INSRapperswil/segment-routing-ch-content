@@ -6,12 +6,12 @@ image: "images/articles/article-2.jpg"
 # post type (regular/featured)
 type: "regular"
 # show article on homepage
-onHomepage: true
+onHomepage: false
 # meta description
 description: "This is meta description"
 # post draft
 draft: false
-buttonLabel: Check it out
+buttonLabel: Read more
 ---
 
 

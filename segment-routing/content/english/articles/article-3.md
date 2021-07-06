@@ -11,7 +11,7 @@ onHomepage: false
 description: "This is meta description"
 # post draft
 draft: false
-buttonLabel: Check it out
+buttonLabel: Read more
 ---
 
 

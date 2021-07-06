@@ -6,7 +6,7 @@ git pull
 
 # delete everything in public except .git and CNAME
 shopt -s extglob
-rm -rf !('.git/*'|'CNAME')
+rm -rf !('.git/*'|'CNAME'|'README.md')
 
 #build site
 cd ..

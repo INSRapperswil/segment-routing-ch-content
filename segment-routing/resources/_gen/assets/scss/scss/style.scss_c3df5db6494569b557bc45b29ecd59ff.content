@@ -97,12 +97,12 @@ h6,
     font-size: 15px; }
 
 .btn-primary {
-  background-color: #0AA8A7;
+  background-color: #0064A3;
   color: #fff;
-  border-color: #0AA8A7; }
+  border-color: #0064A3; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-    background-color: #0AA8A7 !important;
-    border-color: #0AA8A7 !important; }
+    background-color: #0064A3 !important;
+    border-color: #0064A3 !important; }
 
 .btn-outline-primary {
   background-color: transparent;
@@ -110,13 +110,13 @@ h6,
   border-color: transparent; }
   .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
     background-color: transparent !important;
-    border-color: #0AA8A7 !important;
-    color: #0AA8A7; }
+    border-color: #0064A3 !important;
+    color: #0064A3; }
   .btn-outline-primary::before {
-    border-color: #0AA8A7; }
+    border-color: #0064A3; }
 
 .btn-link {
-  color: #0AA8A7; }
+  color: #0064A3; }
   .btn-link i,
   .btn-link svg {
     font-size: 12px;
@@ -124,7 +124,7 @@ h6,
     margin-bottom: 1px;
     transition: .2s ease; }
   .btn-link:active, .btn-link:hover, .btn-link.focus, .btn-link.active {
-    color: #0AA8A7;
+    color: #0064A3;
     text-decoration: none; }
     .btn-link:active i,
     .btn-link:active svg, .btn-link:hover i,
@@ -138,7 +138,7 @@ body {
   overflow-x: hidden; }
 
 ::selection {
-  background-color: #077877;
+  background-color: #004570;
   color: #fff; }
 
 body::-webkit-scrollbar {
@@ -148,7 +148,7 @@ body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #0AA8A7;
+  background-color: #0064A3;
   outline: 2px solid #fff; }
 
 /* preloader */
@@ -188,7 +188,7 @@ select {
     outline: 0; }
 
 a:hover {
-  color: #0AA8A7; }
+  color: #0064A3; }
 
 .slick-slide {
   outline: 0; }
@@ -198,16 +198,22 @@ a:hover {
   padding-bottom: 70px; }
   .section-title {
     margin-bottom: 30px; }
-  .section .card-text {
+  .section .card-text, .section .section-summary {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     /* number of lines to show */
     -webkit-box-orient: vertical; }
-  .section .card-foote {
-    display: flex;
+  .section .card-foot, .section .section-foot {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex; }
+  .section .card-foot {
     justify-content: flex-end; }
+
+.projects-paginator {
+  margin-bottom: 70px; }
 
 .bg-cover {
   background-size: cover;
@@ -216,6 +222,9 @@ a:hover {
 
 .border-default {
   border-color: #ECECEC !important; }
+
+a {
+  color: #222; }
 
 /* overlay */
 .overlay {
@@ -231,13 +240,13 @@ a:hover {
     opacity: .5; }
 
 .bg-primary {
-  background-color: #0AA8A7 !important; }
+  background-color: #0064A3 !important; }
 
 .bg-light {
   background-color: #EDF6F5 !important; }
 
 .text-primary {
-  color: #0AA8A7 !important; }
+  color: #0064A3 !important; }
 
 .rounded-lg {
   border-radius: 10px !important; }
@@ -247,7 +256,7 @@ a:hover {
 
 .form-control:focus {
   outline: 0;
-  border-color: #0AA8A7;
+  border-color: #0064A3;
   box-shadow: none; }
 
 .form-control::placeholder {
@@ -265,7 +274,7 @@ textarea.form-control {
   .check-mark::before {
     position: absolute;
     content: "\f058";
-    color: #0AA8A7;
+    color: #0064A3;
     font-size: 25px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -273,7 +282,7 @@ textarea.form-control {
     top: 3px; }
   .check-mark svg {
     position: absolute;
-    color: #0AA8A7;
+    color: #0064A3;
     font-size: 25px;
     left: -30px;
     top: 3px; }
@@ -287,7 +296,7 @@ textarea.form-control {
 .navbar-light .navbar-nav .nav-link {
   color: #222; }
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #0AA8A7; }
+    color: #0064A3; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px; }
@@ -304,7 +313,7 @@ textarea.form-control {
   background-color: #fff; }
   .feature-card svg, .feature-card i {
     font-size: 30px;
-    color: #0AA8A7;
+    color: #0064A3;
     display: inline-block; }
 
 .footer-list a {
@@ -314,26 +323,26 @@ textarea.form-control {
   color: #777;
   margin: 8px 0; }
   .footer-list a:hover {
-    color: #0AA8A7; }
+    color: #0064A3; }
 
 .social-icons a {
-  color: #0AA8A7;
+  color: #0064A3;
   text-align: center;
   height: 35px;
   width: 35px;
   line-height: 35px;
-  border: 1px solid #0AA8A7;
+  border: 1px solid #0064A3;
   border-radius: 50%;
   display: block; }
   .social-icons a:hover {
     color: #fff;
-    background-color: #0AA8A7; }
+    background-color: #0064A3; }
 
 a.post-title {
   color: #222;
   display: block; }
   a.post-title:hover {
-    color: #0AA8A7; }
+    color: #0064A3; }
 
 .content * {
   word-break: break-word;
@@ -358,7 +367,7 @@ a.post-title {
   color: #777;
   border-bottom: 1px dotted #ECECEC; }
   .content a:hover {
-    color: #0AA8A7; }
+    color: #0064A3; }
 
 .content ol,
 .content ul {
@@ -380,7 +389,7 @@ a.post-title {
       height: 8px;
       width: 8px;
       border-radius: 50%;
-      background: #0AA8A7;
+      background: #0064A3;
       left: 3px;
       top: 5px; }
 
@@ -479,7 +488,7 @@ a.post-title {
   font-size: 20px !important;
   color: #777;
   padding: 20px 40px;
-  border-left: 2px solid #0AA8A7;
+  border-left: 2px solid #0064A3;
   margin: 40px 0;
   font-weight: bold;
   background: #fff; }
@@ -512,14 +521,14 @@ a.post-title {
     border: 0;
     color: #777; }
     .pagination .page-item .page-link:hover {
-      background: #0AA8A7;
+      background: #0064A3;
       color: #fff; }
     .pagination .page-item .page-link:focus {
       box-shadow: none; }
   .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
     border-radius: 5px; }
   .pagination .page-item.active .page-link {
-    background: #0AA8A7;
+    background: #0064A3;
     color: #fff; }
 
 .slick-dots {
@@ -529,7 +538,7 @@ a.post-title {
     display: inline-block;
     margin: 0 5px; }
     .slick-dots li.slick-active button {
-      background-color: #0AA8A7; }
+      background-color: #0064A3; }
     .slick-dots li button {
       height: 10px;
       width: 10px;
@@ -537,7 +546,7 @@ a.post-title {
       display: block;
       color: transparent;
       padding: 0;
-      border: 1px solid #0AA8A7;
+      border: 1px solid #0064A3;
       background-color: transparent;
       transition: .2s ease; }
 
