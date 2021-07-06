@@ -164,6 +164,8 @@ Once you are happy with your changes, you can build and deploy the website. In t
 ```
 This will push the content of the directory `segment-routing/public` to the GitHub Pages repository `segment-routing-ch.github.io`.
 
+<ins>**[Important! Do not forget to commit your changes to this (the source) repository when you are done!](#important-commiting-to-this-repository)**</ins>
+
 ## Updating the Theme
 If you want to make changes to the styling or otherwise update the theme, you can do so by editing the files in `segment-routing/themes/segment-routing-ch-theme`.
 
@@ -171,3 +173,13 @@ Once you have made your changes, you need to remember to commit them to the them
 ```bash
 ./commit-theme-changes.sh
 ```
+
+<ins>**[Important! Do not forget to commit your changes to this (the source) repository when you are done!](#important-commiting-to-this-repository)**</ins>
+
+## Important! Commiting to This Repository
+Always remeber to commit your changes to this (the source) repository as well. It is easy to forget, after having deployed the website.
+When commiting to this repository, it is important that you are <ins>**not**</ins> in one of these to folders:
+- `segment-routing/public`
+- `segment-routing/themes/segment-routing-ch-theme`
+
+These folders contain submodule, which are git repositories themselves.
