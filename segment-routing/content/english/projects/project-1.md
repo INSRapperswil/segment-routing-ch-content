@@ -7,8 +7,6 @@ sliderImages:
   - "images/projects/project-1/project-1-1.png"
   - "images/projects/project-1/project-1-2.png"
   - "images/projects/project-1/project-1-3.png"
-# post type (regular/featured)
-type: "featured"
 # meta description
 description: "This is meta description"
 # post draft

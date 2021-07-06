@@ -5,8 +5,6 @@ date: 2010-04-18T10:07:21+06:00
 image: "images/projects/project-2/project-2-1.png"
 sliderImages: 
   - "images/projects/project-2/project-2-1.png"
-# post type (regular/featured)
-type: "regular"
 # meta description
 description: "This is meta description"
 # post draft
