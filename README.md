@@ -41,6 +41,14 @@ cd segment-routing-ch-source
 ./init-dev-env.sh
 ```
 
+## Important! Commiting to This Repository
+Always remeber to commit your changes to this (the source) repository as well. It is easy to forget, after having deployed the website.
+When commiting to this repository, it is important that you are <ins>**not**</ins> in one of these to folders:
+- `segment-routing/public`
+- `segment-routing/themes/segment-routing-ch-theme`
+
+These folders contain submodules, which are git repositories themselves.
+
 ## Making Changes to the Website
 Making changes to the website requires the development environment to be setup (see chapter [Setting Up the Development Environment](#setting-up-the-development-environment)).
 
@@ -175,11 +183,3 @@ Once you have made your changes, you need to remember to commit them to the them
 ```
 
 <ins>**[Important! Do not forget to commit your changes to this (the source) repository when you are done!](#important-commiting-to-this-repository)**</ins>
-
-## Important! Commiting to This Repository
-Always remeber to commit your changes to this (the source) repository as well. It is easy to forget, after having deployed the website.
-When commiting to this repository, it is important that you are <ins>**not**</ins> in one of these to folders:
-- `segment-routing/public`
-- `segment-routing/themes/segment-routing-ch-theme`
-
-These folders contain submodule, which are git repositories themselves.
