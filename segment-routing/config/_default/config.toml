@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://mbongard.github.io/segment-routing-ch.github.io/"
+baseURL = "https://www.segment-routing.ch/"
 title = "Segment Routing"
 languageCode = "en-us"
 theme = "segment-routing-ch-theme"
