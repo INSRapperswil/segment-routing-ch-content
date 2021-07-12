@@ -95,11 +95,13 @@ For most basic operations (such as adding and editing articles or projects) only
 Run one of these commands in the root directory of the project ...
 - to create a new <ins>new article</ins>:
 	```bash
-	hugo new --kind article segment-routing/content/english/articles/<file-name>.md
+	cd segment-routing
+	hugo new --kind article content/english/articles/<file-name>.md
 	```
 - to create a new <ins>new project</ins>:
 	```bash
-	hugo new --kind project segment-routing/content/english/projects/<file-name>.md
+	cd segment-routing
+	hugo new --kind project content/english/projects/<file-name>.md
 	```
 Make sure to replace `<file-name>` with a new and unique name.
 
