@@ -31,5 +31,12 @@ feature:
       icon : "fas fa-users"
       content : "Highly experienced, practiced and motivated."
       link : "about-us"
+
+##################### Twitter ##########################
+twitter: 
+  feed: "https://twitter.com/SegmentRouting?ref_src=twsrc%5Etfw"
+  title: "Tweets by @SegmentRouting"
+  link_title: "https://twitter.com/SegmentRouting"
+  placeholder: "Tweets by SegmentRouting"
       
 ---

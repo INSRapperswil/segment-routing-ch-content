@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.segment-routing.ch/"
+baseURL = "https://mbongard.github.io/segment-routing-ch.github.io/"
 title = "Segment Routing"
 languageCode = "en-us"
 theme = "segment-routing-ch-theme"
@@ -7,3 +7,4 @@ theme = "segment-routing-ch-theme"
 paginate = "3"
 # post excerpt
 summaryLength = "10"
+Referrer-Policy= "strict-origin"

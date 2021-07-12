@@ -560,3 +560,25 @@ a.post-title {
 .price {
   font-size: 50px;
   color: #222; }
+
+.twitter-margin {
+  margin: -10px 25px; }
+
+.twitter-header {
+  margin: -25px auto 50px auto;
+  max-width: 100%; }
+
+.twitter-title {
+  text-align: center; }
+
+.twitter-section {
+  margin: auto;
+  width: fit-content; }
+
+.course-card {
+  flex: 0 0 80%;
+  max-width: 80%; }
+
+.course-lang {
+  margin-bottom: 2rem;
+  font-weight: 600; }
