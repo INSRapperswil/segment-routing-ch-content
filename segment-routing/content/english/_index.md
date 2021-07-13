@@ -30,7 +30,7 @@ feature:
     - name : "The Team"
       icon : "fas fa-users"
       content : "Highly experienced, practiced and motivated."
-      link : "about-us"
+      link : "about-us/team"
 
 ##################### Twitter ##########################
 twitter: 

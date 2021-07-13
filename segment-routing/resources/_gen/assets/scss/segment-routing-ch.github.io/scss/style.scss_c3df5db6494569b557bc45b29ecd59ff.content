@@ -254,6 +254,9 @@ a {
 .shadow, .feature-card:hover, .btn:hover, .btn:active, .btn:focus {
   box-shadow: 0 12px 24px -6px rgba(45, 67, 121, 0.1) !important; }
 
+.strong-shadow {
+  box-shadow: 0 0px 14px 14px rgba(45, 67, 121, 0.1) !important; }
+
 .form-control:focus {
   outline: 0;
   border-color: #0064A3;
@@ -286,6 +289,18 @@ textarea.form-control {
     font-size: 25px;
     left: -30px;
     top: 3px; }
+
+.figure {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .figure > img {
+    margin-bottom: 0.5rem; }
+  .figure > figcaption {
+    margin-bottom: 0px; }
+    .figure > figcaption > p {
+      margin-bottom: 0px; }
 
 .nav-item {
   margin: 0; }
@@ -582,3 +597,63 @@ a.post-title {
 .course-lang {
   margin-bottom: 2rem;
   font-weight: 600; }
+
+.team-cards {
+  max-width: 512px; }
+
+.person-card {
+  height: 288px;
+  overflow: hidden;
+  position: relative;
+  color: black; }
+  .person-card:hover {
+    box-shadow: 0 0px 28px 7px #0064a3 !important; }
+  .person-card .functions {
+    color: #777;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0.75rem; }
+  .person-card .fieldOfActivity {
+    padding-left: 0px; }
+    .person-card .fieldOfActivity > li {
+      list-style-position: inside;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+
+.person {
+  font-size: 1.1rem; }
+
+.person-functions {
+  color: #777;
+  list-style: none;
+  padding-left: 0; }
+
+.person-projects > li > a {
+  color: #0064A3; }
+  .person-projects > li > a:hover {
+    color: #777; }
+
+.person-footer {
+  position: absolute;
+  bottom: 0px;
+  right: 24px; }
+
+.person-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+
+.person-contact {
+  color: black;
+  font-size: inherit; }
+  .person-contact a {
+    font-size: inherit;
+    color: #0064A3; }
+    .person-contact a:hover {
+      color: #777; }
+
+.team-image > .caption {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: center; }

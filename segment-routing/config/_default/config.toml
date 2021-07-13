@@ -7,4 +7,7 @@ theme = "segment-routing-ch-theme"
 paginate = "3"
 # post excerpt
 summaryLength = "10"
-Referrer-Policy= "strict-origin"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

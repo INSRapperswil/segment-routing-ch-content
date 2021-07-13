@@ -3,8 +3,7 @@ title: "screens with built in Present and Dismiss animations."
 date: 2015-04-18T10:07:21+06:00
 # post image
 image: "images/articles/article-3/article-3.jpg"
-# post type (regular/featured)
-type: "regular"
+featured: false
 # show article on homepage
 onHomepage: false
 # meta description

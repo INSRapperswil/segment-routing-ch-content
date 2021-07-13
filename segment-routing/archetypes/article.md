@@ -3,9 +3,8 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 # post image
-image: ""
-# post type (regular/featured)
-type: "featured"
+image: "images/ins-logo.png"
+featured: false
 # show article on homepage
 onHomepage: true
 # meta description
