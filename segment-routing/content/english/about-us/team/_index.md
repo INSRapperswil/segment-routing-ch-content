@@ -5,4 +5,8 @@ draft: false
 type: team
 image: "images/about-us/team/team3.jpg"
 caption: "INS Cloud Networking Team"
+menu:
+  main:
+    parent: 'about-us-main-menu'
+    url: '/about-us/team/'
 ---

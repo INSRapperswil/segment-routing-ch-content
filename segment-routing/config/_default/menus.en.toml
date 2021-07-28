@@ -1,4 +1,4 @@
-# main menu
+# menu
 [[main]]
 name = "Home"
 url = ""
@@ -20,22 +20,17 @@ url = "courses"
 weight = 4
 
 [[main]]
-identifier = "about-us"
+identifier = "about-us-main-menu"
 name = "About Us"
 weight = 5
 
-[[main.children]]
-parent = "about-us"
-name = "Team"
-url = "about-us/team"
-
-# footer menu left
+# footer languages.en.menu left
 [[footer_left]]
 name = "INS Institute for Networked Solutions"
 url = "about-us"
 weight = 1
 
-# footer menu left
+# footer languages.en.menu left
 [[footer_left]]
 name = "8640 Rapperswil, Switzerland"
 weight = 2
