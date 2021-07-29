@@ -1,21 +1,21 @@
 ---
-title: "Jessica Hilti"
+title: "Yannick Zwicker"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/jessica-hilti.png"
+image: "images/ins/about-us/yannick-zwicker.jpg"
 # meta description
 description: ""
-weight: 2
-email: "jessica.hilti@ost.ch"
+weight: 3
+email: "yannick.zwicker@ost.ch"
 function: 
-  - "Teamleader"
   - "Network Engineer"
 fieldOfActivity: 
-  - "Software Defined Networking (Cisco DNA)"
-  - "General projects in the area of networking"
+  - "CCNA Instructor"
+  - "Security Operations"
   - "Network automation with Python"
   - "DevOps"
   - "ChatOps"
+  - "Docker"
   - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
 ---

@@ -1,9 +1,9 @@
 ---
 title: "Julian Klaiber"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/julian-klaiber.png"
+image: "images/ins/about-us/julian-klaiber.png"
 # meta description
 description: ""
 weight: 3

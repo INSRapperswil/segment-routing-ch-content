@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Contact Us"
-    link : "about-us"
+    link : "ins/contact-us"
 
 ##################### Feature ##########################
 feature:
@@ -30,7 +30,7 @@ feature:
     - name : "The Team"
       icon : "fas fa-users"
       content : "Highly experienced, practiced and motivated."
-      link : "about-us/team"
+      link : "ins/about-us/#ins-cloud-networking-team"
 
 ##################### Twitter ##########################
 twitter: 

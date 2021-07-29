@@ -224,7 +224,14 @@ a:hover {
   border-color: #ECECEC !important; }
 
 a {
+  color: #0064A3; }
+  a:hover {
+    color: #222; }
+
+.a-inverted {
   color: #222; }
+  .a-inverted:hover {
+    color: #0064A3; }
 
 /* overlay */
 .overlay {
@@ -379,10 +386,10 @@ a.post-title {
   font-weight: 600; }
 
 .content a {
-  color: #777;
+  color: #0064A3;
   border-bottom: 1px dotted #ECECEC; }
   .content a:hover {
-    color: #0064A3; }
+    color: #777; }
 
 .content ol,
 .content ul {
@@ -653,7 +660,7 @@ a.post-title {
     .person-contact a:hover {
       color: #777; }
 
-.team-image > .caption {
+.centered-caption > .caption {
   margin-top: 1rem;
   font-size: 1.1rem;
   text-align: center; }

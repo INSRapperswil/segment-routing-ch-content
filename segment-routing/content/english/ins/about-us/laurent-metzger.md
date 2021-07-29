@@ -1,9 +1,9 @@
 ---
 title: "Laurent Metzger"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/laurent-metzger.jpg"
+image: "images/ins/about-us/laurent-metzger.jpg"
 # meta description
 description: ""
 weight: 1

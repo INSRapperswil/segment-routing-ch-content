@@ -1,9 +1,9 @@
 ---
 title: "Urs Baumann"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/urs-baumann.jpg"
+image: "images/ins/about-us/urs-baumann.jpg"
 # meta description
 description: ""
 weight: 3

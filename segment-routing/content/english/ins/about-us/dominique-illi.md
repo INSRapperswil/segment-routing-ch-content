@@ -1,21 +1,18 @@
 ---
-title: "Yannick Zwicker"
+title: "Dominique Illi"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/yannick-zwicker.jpg"
+image: "images/ins/about-us/dominique-illi.png"
 # meta description
 description: ""
 weight: 3
-email: "yannick.zwicker@ost.ch"
+email: "dominique.illi@ost.ch"
 function: 
   - "Network Engineer"
 fieldOfActivity: 
   - "CCNA Instructor"
-  - "Security Operations"
   - "Network automation with Python"
   - "DevOps"
-  - "ChatOps"
-  - "Docker"
   - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
 ---

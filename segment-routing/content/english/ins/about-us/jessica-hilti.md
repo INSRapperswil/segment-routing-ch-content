@@ -1,18 +1,21 @@
 ---
-title: "Dominique Illi"
+title: "Jessica Hilti"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/dominique-illi.png"
+image: "images/ins/about-us/jessica-hilti.png"
 # meta description
 description: ""
-weight: 3
-email: "dominique.illi@ost.ch"
+weight: 2
+email: "jessica.hilti@ost.ch"
 function: 
+  - "Teamleader"
   - "Network Engineer"
 fieldOfActivity: 
-  - "CCNA Instructor"
+  - "Software Defined Networking (Cisco DNA)"
+  - "General projects in the area of networking"
   - "Network automation with Python"
   - "DevOps"
+  - "ChatOps"
   - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
 ---

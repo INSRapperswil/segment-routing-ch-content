@@ -22,6 +22,21 @@ link = "contact"
 # social sites
 
 [[social]]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+title = "Twitter"
+icon = "fab fa-twitter" 
 link = "https://twitter.com/Segment_Routing"
+
+[[social]]
+title = "Call Us"
+icon = "fas fa-phone"
+link = "tel:+41552221838"
+
+[[social]]
+title = "E-Mail"
+icon = "fas fa-envelope"
+link = "mailto:cloud-networking@ost.ch"
+
+[[social]]
+title = "WhatsApp"
+icon = "fab fa-whatsapp"
+link = "https://wa.me/+41552224270"

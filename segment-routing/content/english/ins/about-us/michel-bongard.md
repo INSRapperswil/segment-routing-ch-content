@@ -1,9 +1,9 @@
 ---
 title: "Michel Bongard"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/michel-bongard.jpg"
+image: "images/ins/about-us/michel-bongard.jpg"
 # meta description
 description: ""
 weight: 3

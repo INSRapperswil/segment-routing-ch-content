@@ -20,18 +20,24 @@ url = "courses"
 weight = 4
 
 [[main]]
-identifier = "about-us-main-menu"
-name = "About Us"
+identifier = "ins"
+name = "INS"
 weight = 5
 
-# footer languages.en.menu left
+# footer left
 [[footer_left]]
 name = "INS Institute for Networked Solutions"
-url = "about-us"
+url = "ins/about-us"
 weight = 1
 
-# footer languages.en.menu left
+# footer left
+[[footer_left]]
+name = "OST Eastern Switzerland University of Applied Sciences"
+url = "ins/contact-us"
+weight = 2
+
+# footer left
 [[footer_left]]
 name = "8640 Rapperswil, Switzerland"
-weight = 2
+weight = 3
 

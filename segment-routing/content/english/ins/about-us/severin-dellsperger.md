@@ -1,9 +1,9 @@
 ---
 title: "Severin Dellsperger"
 draft: false
-type: team
+type: about-us
 # post image
-image: "images/about-us/team/severin-dellsperger.png"
+image: "images/ins/about-us/severin-dellsperger.png"
 # meta description
 description: ""
 weight: 3
