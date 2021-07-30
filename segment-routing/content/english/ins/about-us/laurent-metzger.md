@@ -1,5 +1,5 @@
 ---
-title: "Laurent Metzger"
+title: "Prof. Laurent Metzger"
 draft: false
 type: about-us
 # post image
@@ -13,8 +13,13 @@ function:
   - "Professor for Internet Infrastructure"
 fieldOfActivity: 
   - "Director of AWS Academy"
-  - "AWS accredited instructor"
+  - "AWS Accredited Instructor"
+  - "AWS Certified Cloud Practitioner"
+  - "SysOps Administrator Associate and Solutions Architect Associate"
+  - "CCDE, CCIE Enterprise Infrastructure, CCIE Datacenter and CCIE Storage Networking"
+  - "Certified Ethical Hacker (CEH)"
+  - "Certified Information Systems Security Professional (CISSP)"
   - "Lecturer for 'Computer Networks 1 & 2', 'Software Defined Networks' and 'Cloud Infrastructure'"
-  - "Internet infrastructure of the future"
+  - "Internet Infrastructure of the Future"
   - "Network Security"
 ---

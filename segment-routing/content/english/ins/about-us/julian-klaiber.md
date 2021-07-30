@@ -11,6 +11,7 @@ email: "julian.klaiber@ost.ch"
 function: 
   - "Network Engineer"
 fieldOfActivity: 
+  - "CKA and CKAD"
   - "CCNA Instructor"
   - "Docker"
   - "DevOps"
