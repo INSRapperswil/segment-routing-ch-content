@@ -17,7 +17,7 @@ whatsapp: "+41 55 222 18 38"
 fax: "+41 55 222 42 70"
 mail: "cloud-networking@ost.ch"
 institute: "INS Institute for Networked Solutions"
-university: "OST Eastern Switzerland University of Applied Sciences"
+university: "OST – Eastern Switzerland University of Applied Sciences"
 address: "Oberseestrasse 10"
 city: "8640 Rapperswil"
 country: "Switzerland"
@@ -26,7 +26,7 @@ googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1354.
 ---
 
 ### Our Campus
-The INS Institute of Networked Solutions of the [Eastern Switzerland University of Applied Sciences (OST)](https://www.ost.ch/en/) is based in Switzerland, sitting between the train station of Rapperswil and the lake Obersee. The university is located less than a minute on foot from the train station.
+The INS Institute of Networked Solutions of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> is based in Switzerland, sitting between the train station of Rapperswil and the lake Obersee. The university is located less than a minute on foot from the train station.
 
 {{< slider "images/ost-campus/ost-campus-1.jpg" "images/ost-campus/ost-campus-2.jpg" "images/ost-campus/ost-campus-3.jpg" >}}
 
@@ -47,7 +47,7 @@ Our office 8.262 is located in building 8 «Forschungszentrum».
 
 ### Visit Us By Train
 If you want to visit us, we recommend using public transport, since Rapperswil is very well connected.  
-You can find all connections to Rapperswil SG using the website of [SBB Swiss Federal Railway](https://www.sbb.ch/en/home.html). Simlply type in the start and destination of your journey.  
+You can find all connections to Rapperswil SG using the website of <a href="https://www.sbb.ch/en/home.html" target="_blank" rel="noopener noreferrer">SBB Swiss Federal Railway</a>. Simlply type in the start and destination of your journey.  
 
 For example, if you are coming from the Zurich airport, search for connections...  
 ... From: "Zürich Flughafen"  

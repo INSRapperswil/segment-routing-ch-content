@@ -12,13 +12,13 @@ menu:
     weight: 1
 
 ins:
-  image : "images/ost-campus/ost-campus-building-8.jpg"
+  image : "images/ost-campus/ost-campus-building-8-1.jpg"
   caption: "INS Office Building"
   
 ---
 
 ### INS Institute for Networked Solutions
-The INS Institute for Networked Solutions of the [Eastern Switzerland University of Applied Sciences (OST)](https://www.ost.ch/en/) combines the expertise of various fields. Our staff is constantly immersing itself into the newest technologies and trends to advance innovative and progressive solutions. The institute is comprised of these four competence centers:
+The INS Institute for Networked Solutions of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> combines the expertise of various fields. Our staff is constantly immersing itself into the newest technologies and trends to advance innovative and progressive solutions. The institute is comprised of these four competence centers:
 - Software Engineering
 - Cloud Networking
 - Network Automation

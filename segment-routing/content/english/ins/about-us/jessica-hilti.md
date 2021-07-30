@@ -12,6 +12,7 @@ function:
   - "Teamleader"
   - "Network Engineer"
 fieldOfActivity: 
+  - "AWS Certified Cloud Practitioner"
   - "Software Defined Networking (Cisco DNA)"
   - "General projects in the area of networking"
   - "Network automation with Python"

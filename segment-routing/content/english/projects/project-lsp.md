@@ -30,11 +30,13 @@ The final step, now that the core business logic was implemented, was to improve
 <br>
 
 # Result 
-The application built during this thesis covers all requested features and use cases. It is scalable for topologies consisting of up to one thousand routers. The response time for a topology change (until the UI displays the updated topology with the recalculated link saturation) is less than six seconds with the hardware at hand (Quad Core Multithreaded CPU at 4GHz on the server).
+{{% figure src="images/projects/project-lsp/sr-app-screenshot.png" alt="SR-App screenshot" caption="SR-App Screenshot" class="leftInText" width="500px" %}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus eget ipsum vel suscipit. Morbi quis augue eu nisi imperdiet placerat. Vivamus condimentum leo sed cursus imperdiet. Curabitur molestie libero id libero sagittis, nec vulputate libero congue. Aliquam malesuada nisl a risus finibus, eget congue ex aliquet. Aliquam ut justo ac lacus finibus consequat ut vitae mauris. Maecenas eget felis non nisi eleifend vehicula a at lorem. Phasellus quis sodales massa. Aenean iaculis suscipit nunc, ut sagittis nunc hendrerit non. In a tempus odio. Proin a arcu lacus. Nam at libero dui. Fusce ac aliquet arcu, non imperdiet neque.
 
-<br>
+Nullam condimentum venenatis quam, et pellentesque nibh pulvinar sed. Mauris non risus leo. Quisque sodales ac odio sit amet interdum. Cras et metus tempus, malesuada lectus eu, iaculis elit. Fusce fringilla urna nec mi tincidunt condimentum. Suspendisse tristique tempus varius. Vestibulum placerat auctor lectus at egestas. Nullam gravida tellus sed vehicula facilisis. Praesent efficitur sit amet lacus a tempus. Nullam vitae urna non enim ultrices rutrum. Integer posuere sem nec massa pharetra gravida.
 
-{{< figure class="test2" src="images/projects/project-lsp/sr-app-screenshot.png" alt="SR-App screenshot" caption="SR-App Screenshot" >}}
+Sed hendrerit efficitur mi, ac sollicitudin velit. Nullam egestas ligula vel risus feugiat ullamcorper. Etiam nec blandit metus. Mauris magna est, tristique vel libero scelerisque, blandit dictum metus. Ut aliquet mauris tristique diam condimentum, et ultrices nisl eleifend. Pellentesque vitae odio posuere, ultricies sem vitae, gravida erat. Aenean ultrices ligula in mauris faucibus efficitur. Cras ante dolor, mollis eget nulla vitae, tristique iaculis purus. Nunc volutpat nunc vel fringilla porttitor. Aenean in ex id sapien molestie ultrices.
+{{% /figure %}}
 
 <br>
 

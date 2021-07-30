@@ -297,16 +297,22 @@ textarea.form-control {
     left: -30px;
     top: 3px; }
 
-.figure {
-  margin: auto;
+.customFigure {
+  margin: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .figure > img {
+  .customFigure.leftInText {
+    float: left;
+    margin-left: 0px; }
+  .customFigure.rightInText {
+    float: right;
+    margin-right: 0px; }
+  .customFigure > img {
     margin-bottom: 0.5rem; }
-  .figure > figcaption {
+  .customFigure > figcaption {
     margin-bottom: 0px; }
-    .figure > figcaption > p {
+    .customFigure > figcaption > p {
       margin-bottom: 0px; }
 
 .nav-item {
@@ -601,8 +607,7 @@ a.post-title {
   flex: 0 0 80%;
   max-width: 80%; }
 
-.course-lang {
-  margin-bottom: 2rem;
+.course-property {
   font-weight: 600; }
 
 .team-cards {
