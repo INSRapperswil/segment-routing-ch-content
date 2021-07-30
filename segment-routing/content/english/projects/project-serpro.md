@@ -5,7 +5,7 @@ draft: false
 sliderImages:
   - "images/projects/project-serpro/serpro-logo.png"
 # meta description
-description: ""
+description: "Dynamic service programming application which uses the functionalities of SRv6."
 buttonLabel: "Check it out"
 contributors:
   - "julian.klaiber@ost.ch"
@@ -28,19 +28,21 @@ The new approaches with SR also created complete new use cases. The most interes
 We can proudly announce, that we have developed the Segment Routing Service Programming application also called SerPro. SerPro allows the customer to program so-called steering policies over a dedicated GUI. The customer has the possibilities to select SR Policy headend, endpoint and metric/algorithm information together with services which are directly deployed in the network. The application will automatically calculate the best suitable path according to this specified parameters. The customer can then deploy this policy to the network if he wants to. The traffic will then be routed to the destination through the defined services. 
   
 The application can react dynamically to changes in the connected network and can therefore always deliver the best policy that fits the altered topology. As a consequence, the user can always rely on the data on which he is working
+{{% figure src="images/projects/project-serpro/serpro.png" alt="SerPro Application" caption="SerPro Application" height="550px" %}}
 
-{{< figure height="550px" src="images/projects/project-serpro/serpro.png" alt="SerPro Application" caption="SerPro Application" >}}
 <br>
 
 ### Cloud-Native Architecture
+{{% figure height="550px" src="images/projects/project-serpro/serpro-deployment.png" alt="SerPro Architecture" caption="SerPro Architecture" class="rightInText" %}}
 Since Segment Routing is nowadays mainly used in large networks, especially in provider networks, the application must handle extremely large topologies and many users. Due to this fact, the application had to be scalable and highly available. Therefore, a cloud-native approach came to the fore. The complete application was developed cloud-native in order to deploy it natively on a Kubernetes cluster, allowing the application to scale quickly and even allowing the possibility to activate autoscaling functions.  
   
 Through the requirement to be highly available most of the core components like the messaging system and the caching system are clustered deployed. To this clustered core components the application can always rely that this components are available and therefore also all the data is everytime accessable for the user.  
-  
-{{< figure height="550px" src="images/projects/project-serpro/serpro-deployment.png" alt="SerPro Architecture" caption="SerPro Architecture" >}}
-<br>
+{{% /figure %}}
+
 
 ## Customer Value
-The application allows the customer to manage the different policies from a central location. The granular permission structure allows the customer to control: who is allowed to perform and what activities. Constant manual adjustment of the various  policies belongs to the past, thanks to automatic recalculation and redeployment. With the ability to dynamically route traffic through the various services, services such as a firewall or an intrusion detection/prevention system can now be utilized better and centrally deployed in the network.
-{{< figure height="450px" src="images/projects/project-serpro/serpro-customer-value.png" alt="SerPro Customer Value" caption="SerPro Customer Value" >}}
+{{% figure height="450px" src="images/projects/project-serpro/serpro-customer-value.png" alt="SerPro Customer Value" caption="SerPro Customer Value" class="leftInText" %}}
+The application allows the customer to manage the different policies from a central location. The granular permission structure allows the customer to control: who is allowed to perform and what activities. Constant manual adjustment of the various  policies belongs to the past, thanks to automatic recalculation and redeployment. With the ability to dynamically route traffic through the various services, services such as a firewall or an intrusion detection/prevention system can now be utilized better and centrally deployed in the network.  
+
 Through the standardized Application Programming Interface (API), all application functions can be controlled; a frontend can display the complete topology and inform the user dynamically about updates. The application can be seamlessly integrated into a cloud environment due to its cloud-native structure and can scale with the size of the network without any problems.
+{{% /figure %}}
