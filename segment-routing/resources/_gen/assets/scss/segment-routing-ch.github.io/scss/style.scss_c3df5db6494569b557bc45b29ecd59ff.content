@@ -315,6 +315,27 @@ textarea.form-control {
     .customFigure > figcaption > p {
       margin-bottom: 0px; }
 
+.mw-25 {
+  max-width: 25%; }
+
+.mw-50 {
+  max-width: 50%; }
+
+.mw-75 {
+  max-width: 75%; }
+
+.mh-25 {
+  max-height: 25%; }
+
+.mh-50 {
+  max-height: 50%; }
+
+.mh-75 {
+  max-height: 75%; }
+
+.minw-400 {
+  min-width: 400px; }
+
 .nav-item {
   margin: 0; }
   .nav-item .nav-link {
@@ -399,6 +420,7 @@ a.post-title {
 
 .content ol,
 .content ul {
+  display: flow-root;
   padding-left: 20px; }
   .content ol li,
   .content ul li {

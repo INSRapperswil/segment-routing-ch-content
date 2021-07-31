@@ -1,6 +1,7 @@
 ---
 title: "SR-App: Service Programming"
-date: 2021-07-12T18:11:30+02:00
+date: 2021-02-20T08:00:00+02:00
+lastmod: 2021-07-30
 draft: false
 sliderImages:
   - "images/projects/project-serpro/serpro-logo.png"
@@ -10,6 +11,8 @@ buttonLabel: "Check it out"
 contributors:
   - "julian.klaiber@ost.ch"
   - "severin.dellsperger@ost.ch"
+terminated: true
+summary: "Dynamic service programming application which uses the functionalities of SRv6."
 ---
 
 ## Introduction
@@ -28,7 +31,7 @@ The new approaches with SR also created complete new use cases. The most interes
 We can proudly announce, that we have developed the Segment Routing Service Programming application also called SerPro. SerPro allows the customer to program so-called steering policies over a dedicated GUI. The customer has the possibilities to select SR Policy headend, endpoint and metric/algorithm information together with services which are directly deployed in the network. The application will automatically calculate the best suitable path according to this specified parameters. The customer can then deploy this policy to the network if he wants to. The traffic will then be routed to the destination through the defined services. 
   
 The application can react dynamically to changes in the connected network and can therefore always deliver the best policy that fits the altered topology. As a consequence, the user can always rely on the data on which he is working
-{{% figure src="images/projects/project-serpro/serpro.png" alt="SerPro Application" caption="SerPro Application" height="550px" %}}
+{{% figure src="images/projects/project-serpro/serpro.png" alt="SerPro Application" caption="SerPro Application" height="550px" / %}}
 
 <br>
 
