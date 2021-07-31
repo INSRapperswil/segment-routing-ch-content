@@ -3,38 +3,46 @@ title: "SR-App: Service Programming"
 date: 2021-07-12T18:11:30+02:00
 draft: false
 sliderImages:
-  - "images/ins-logo.png"
+  - "images/projects/project-serpro/serpro-logo.png"
 # meta description
-description: ""
+description: "Dynamic service programming application which uses the functionalities of SRv6."
 buttonLabel: "Check it out"
 contributors:
   - "julian.klaiber@ost.ch"
   - "severin.dellsperger@ost.ch"
 ---
 
-# Introduction
-With the emergence of the segment routing technology and the development of the "Jalapeño" data collection framework by Cisco, there are many opportunities for application development that offer a benefit to network engineers and network operators. By using the network data provided by the framework, a variety of different features and use cases may be implemented. The field of application of those so-called SR-Apps is huge and can be anything from basic monitoring functionality to in depth analytics of load distribution and simulation of network changes.  
-This thesis focuses on the development of an application in the field of analytics to provide information about the general network health state and link saturation in case of topology changes.
+## Introduction
+In the last few years, the IT network domain has changed fundamentally. New approaches and technologies were introduced, which has changed and is changing the future of this area radically. The results are modern and dynamic networks that  close the gap between networks, applications, and end-users. It permits creating applications that work closely with the  underlying network and create a network that fulfills customer needs entirely. Network services like firewall systems or  intrusion detection/prevention systems have become indispensable and are firmly anchored in computer networks. Nowadays, these services are not to assume away yet have also a massive disadvantage: they are consumed in a static manner. Service Programming is one of the outcomes in future networks and solves the problem of static service consumption. It allows configuring the network dynamically so that network services can process customer traffic according to their necessities. Following network services can be placed universally in the network - the service programming application will find the best services according to the traffic characteristics. Hence, networks with integrated service programming become more intelligent, economic and are prepared for future needs.
 
 <br>
 
-# Approach / Technology
-It was decided to build the application using a monolithic architecture with ASP.Net Core, because this is what the development team is most familiar with. The programming languages chosen are C# for the backend and JavaScript for client-side functionality, along with HTML and SCSS for markup and styling.
-For the client-server communication the web socket library SignalR (C#) was chosen.
-To be able to display a map of a network in the web browser a graph visualization library was required. Different such libraries and toolkits were considered and compared before the library vis.js was chosen. It offers many features, its documentation is clear and easy to use and the community seems quite active.
-After having implemented a rudimentary UI prototype that was capable of displaying the topology, the focus was switched to the business logic.
-In order to calculate of the link saturation in case of topology changes, the traffic between any two routers had to be redistributed on the network. This is possible thanks to the traffic matrix provided by the SR protocol. The traffic matrix contains information on how much traffic flows between any two SR routers.
-Since traffic in a SR network flows along the shortest paths, the Dijkstra algorithm was implemented to calculate them. Afterwards, a custom algorithm was implemented to redistribute the traffic along those paths and with that, calculate the saturation of each link in the topology.
-The final step, now that the core business logic was implemented, was to improve the UI and adding some additional features.
+### Segment Routing as a game-changer
+Segment Routing (SR) can combine service programming using single encapsulation. Other solutions require new encapsulation/protocols for the same use case. That leads to a very efficient and elegant solution in terms of SR service programming. Through the stateless approach of SR in which all the instructions/segments are carried in the packet header. SR provides a completely stateless solutions with no need to have a state on each intermediate router. That simplifies the complete routing and opens complete new possibilities to route traffic.  
+  
+The new approaches with SR also created complete new use cases. The most interesting one for this project is the possibility to create so-called service chains. Service chaining refers to the targeted concatenation of network services. It aims to allow the customer to configure which network flows should be treated by which different services. SR uses the source routing instead of the destination routing paradigm that means, that first router decides which path the packet should be steered through. This paradigms allows to simply define the service chain in a so-called SR service policy on the SR Policy headend router. 
 
 <br>
 
-# Result 
-The application built during this thesis covers all requested features and use cases. It is scalable for topologies consisting of up to one thousand routers. The response time for a topology change (until the UI displays the updated topology with the recalculated link saturation) is less than six seconds with the hardware at hand (Quad Core Multithreaded CPU at 4GHz on the server).
+## Our Solution
+We can proudly announce, that we have developed the Segment Routing Service Programming application also called SerPro. SerPro allows the customer to program so-called steering policies over a dedicated GUI. The customer has the possibilities to select SR Policy headend, endpoint and metric/algorithm information together with services which are directly deployed in the network. The application will automatically calculate the best suitable path according to this specified parameters. The customer can then deploy this policy to the network if he wants to. The traffic will then be routed to the destination through the defined services. 
+  
+The application can react dynamically to changes in the connected network and can therefore always deliver the best policy that fits the altered topology. As a consequence, the user can always rely on the data on which he is working
+{{% figure src="images/projects/project-serpro/serpro.png" alt="SerPro Application" caption="SerPro Application" height="550px" %}}
 
 <br>
 
-{{< figure class="test2" src="images/projects/project-lsp/sr-app-screenshot.png" alt="SR-App screenshot" caption="SR-App Screenshot" >}}
+### Cloud-Native Architecture
+{{% figure height="550px" src="images/projects/project-serpro/serpro-deployment.png" alt="SerPro Architecture" caption="SerPro Architecture" class="rightInText" %}}
+Since Segment Routing is nowadays mainly used in large networks, especially in provider networks, the application must handle extremely large topologies and many users. Due to this fact, the application had to be scalable and highly available. Therefore, a cloud-native approach came to the fore. The complete application was developed cloud-native in order to deploy it natively on a Kubernetes cluster, allowing the application to scale quickly and even allowing the possibility to activate autoscaling functions.  
+  
+Through the requirement to be highly available most of the core components like the messaging system and the caching system are clustered deployed. To this clustered core components the application can always rely that this components are available and therefore also all the data is everytime accessable for the user.  
+{{% /figure %}}
 
-<br>
 
+## Customer Value
+{{% figure height="450px" src="images/projects/project-serpro/serpro-customer-value.png" alt="SerPro Customer Value" caption="SerPro Customer Value" class="leftInText" %}}
+The application allows the customer to manage the different policies from a central location. The granular permission structure allows the customer to control: who is allowed to perform and what activities. Constant manual adjustment of the various  policies belongs to the past, thanks to automatic recalculation and redeployment. With the ability to dynamically route traffic through the various services, services such as a firewall or an intrusion detection/prevention system can now be utilized better and centrally deployed in the network.  
+
+Through the standardized Application Programming Interface (API), all application functions can be controlled; a frontend can display the complete topology and inform the user dynamically about updates. The application can be seamlessly integrated into a cloud environment due to its cloud-native structure and can scale with the size of the network without any problems.
+{{% /figure %}}

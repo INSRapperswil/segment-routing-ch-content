@@ -5,18 +5,18 @@ type: about-us
 # post image
 image: "images/ins/about-us/julian-klaiber.png"
 # meta description
-description: ""
+description: "`"
 weight: 3
 email: "julian.klaiber@ost.ch"
 function: 
-  - "Network Engineer"
+  - "Network and Research Engineer"
 fieldOfActivity: 
   - "CKA and CKAD"
   - "CCNA Instructor"
-  - "Docker"
   - "DevOps"
+  - "Docker"
   - "ChatOps"
   - "Security Operations"
   - "General projects in the area of networking"
-  - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
+  - "Assistant for courses 'Computer Networks 1 & 2', 'Cloud Infrastructure' and 'Software Defined Networks'"
 ---
