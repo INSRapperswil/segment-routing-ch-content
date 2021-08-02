@@ -24,10 +24,20 @@ Follow these steps to setup the development environment. This is required to mak
 
 ### Install Hugo
 Install `hugo` on your computer by following the [official guide](https://gohugo.io/getting-started/installing/).
-If you are on Linux you can simply type:
+Some package managers (including `apt` as of the moment) do not have the latest version of hugo, so make sure to check the version you have with
 ```bash
-sudo apt update
-sudo apt install hugo
+hugo version
+```
+You need at least version `0.79` for this project. If you do not have at least this version, you may need to install hugo manually.
+
+#### Manual Installation
+Go to [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download the latest version for you operating system.  
+**Important!** You need to use the **extended** version, otherwise the compiler does not automatically compile `.scss` files.
+
+For example for Linux, choose the latest version (currently `hugo_extended_0.86.1_Linux-64bit.deb`) and run these commands:
+```bash
+wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
+sudo dpkg --install ./hugo_0.86.1_Linux-64bit.deb
 ```
 
 ### Clone & Initialize the Repository
