@@ -6,12 +6,6 @@ description: "This is meta description"
 draft: false
 type: contact-us
 
-menu:
-  main: 
-    parent: 'ins'
-    url: '/ins/contact-us/'
-    weight: 2
-
 phone: "+41 55 222 18 38"
 whatsapp: "+41 55 222 18 38"
 fax: "+41 55 222 42 70"

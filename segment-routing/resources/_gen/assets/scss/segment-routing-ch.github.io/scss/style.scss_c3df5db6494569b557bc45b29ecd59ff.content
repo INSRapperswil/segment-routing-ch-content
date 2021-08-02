@@ -691,3 +691,15 @@ a.post-title {
   margin-top: 1rem;
   font-size: 1.1rem;
   text-align: center; }
+
+.project-card {
+  overflow: hidden;
+  position: relative;
+  color: black;
+  width: 75%; }
+  .project-card:hover {
+    box-shadow: 0 0px 28px 7px #0064a3 !important; }
+
+.featured-article {
+  border-bottom: 5px solid #777;
+  padding-bottom: 5rem; }

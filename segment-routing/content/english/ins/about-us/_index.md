@@ -5,11 +5,6 @@ draft: false
 type: about-us
 image: "images/ins/about-us/team3.jpg"
 caption: "INS Cloud Networking Team"
-menu:
-  main:
-    parent: 'ins'
-    url: '/ins/about-us/'
-    weight: 1
 
 ins:
   image : "images/ost-campus/ost-campus-building-8-1.jpg"
