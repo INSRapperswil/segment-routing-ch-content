@@ -68,7 +68,7 @@ weight = 2
 name = "Address"
 weight = 3
 [footer_middle.params]
-    class = "mb-0 font-weight-bold"
+    class = "mb-0 fw-bold"
 
 [[footer_middle]]
 name = "Oberseestrasse 10"
