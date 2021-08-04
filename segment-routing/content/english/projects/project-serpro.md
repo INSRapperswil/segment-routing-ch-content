@@ -1,17 +1,21 @@
 ---
 title: "SR-App: Service Programming"
 date: 2021-02-20T08:00:00+02:00
+# Date when the project page was last modified
 lastmod: 2021-07-30
+# when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-sliderImages:
-  - "images/projects/project-serpro/serpro-logo.png"
-# meta description
+image: "images/projects/project-serpro/serpro-logo.png"
+
+# This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
+# Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
 description: "Dynamic service programming application which uses the functionalities of SRv6."
 buttonLabel: "Check it out"
 contributors:
   - "julian.klaiber@ost.ch"
   - "severin.dellsperger@ost.ch"
-terminated: true
+  
+# This summary is used in the projects overview page.
 summary: "Dynamic service programming application which uses the functionalities of SRv6."
 ---
 

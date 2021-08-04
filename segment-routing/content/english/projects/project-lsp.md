@@ -1,16 +1,21 @@
 ---
 title: "SR-App: Link Saturation Prediction"
 date: 2020-09-20T08:00:00+02:00
+# Date when the project page was last modified
 lastmod: 2021-07-31
+# when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-sliderImages:
-  - "images/projects/project-lsp/sr-app-screenshot.png"
-# meta description
+image: "images/projects/project-lsp/sr-app-screenshot.png"
+
+# This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
+# Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
 description: "An application that can simulate topology changes and calculate the resulting saturation of all network links. It can also assess the quality of individual links and visualize the result."
 buttonLabel: "Check it out"
 contributors:
   - "michel.bongard@ost.ch"
   - "dominique.illi@ost.ch"
+
+# This summary is used in the projects overview page.
 summary: "An application that can simulate topology changes and calculate the resulting saturation of all network links. It can also assess the quality of individual links and visualize the result."
 ---
 

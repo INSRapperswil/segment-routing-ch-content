@@ -36,7 +36,6 @@ parent = "ins"
 url = "ins/contact-us"
 weight = 2
 
-# footer left
 [[footer_left]]
 name = "INS Institute for Networked Solutions"
 url = "ins/about-us"
@@ -44,7 +43,6 @@ weight = 1
 [footer_left.params]
     class = "mb-2"
 
-# footer left
 [[footer_left]]
 name = "OST – Eastern Switzerland University of Applied Sciences"
 url = "ins/contact-us"
@@ -52,63 +50,75 @@ weight = 2
 [footer_left.params]
     class = "mb-2"
 
-# footer left
-[[footer_left]]
-name = "Oberseestrasse 10"
-weight = 3
-[footer_left.params]
-    class = "mb-0"
-
-# footer left
-[[footer_left]]
-name = "8640 Rapperswil SG"
-weight = 4
-[footer_left.params]
-    class = "mb-0"
-
-# footer left
-[[footer_left]]
-name = "Switzerland"
-weight = 5
-[footer_left.params]
-    class = "mb-0"
-
-# footer middle
 [[footer_middle]]
+name = "cloud-networking@ost.ch"
+url = "mailto:cloud-networking@ost.ch"
+weight = 1
+[footer_middle.params]
+    class = "mb-0"
+
+[[footer_middle]]
+name = "+41 55 222 18 38"
+url = "tel:+41552221838"
+weight = 2
+[footer_middle.params]
+    class = "mb-3"
+
+[[footer_middle]]
+name = "Address"
+weight = 3
+[footer_middle.params]
+    class = "mb-0 font-weight-bold"
+
+[[footer_middle]]
+name = "Oberseestrasse 10"
+weight = 4
+[footer_middle.params]
+    class = "mb-0"
+
+[[footer_middle]]
+name = "8640 Rapperswil SG"
+weight = 5
+[footer_middle.params]
+    class = "mb-0"
+
+[[footer_middle]]
+name = "Switzerland"
+weight = 6
+[footer_middle.params]
+    class = "mb-0"
+
+[[footer_right]]
 name = "Articles"
 url = "articles"
 weight = 1
-[footer_middle.params]
+[footer_right.params]
     class = "mb-2"
 
-# footer middle
-[[footer_middle]]
+[[footer_right]]
 name = "Projects"
 url = "projects"
 weight = 2
-[footer_middle.params]
+[footer_right.params]
     class = "mb-2"
 
-# footer middle
-[[footer_middle]]
+[[footer_right]]
 name = "Courses"
 url = "courses"
 weight = 3
-[footer_middle.params]
+[footer_right.params]
     class = "mb-2"
 
-# footer middle
-[[footer_middle]]
+[[footer_right]]
 name = "About Us"
 url = "ins/about-us"
 weight = 4
-[footer_middle.params]
+[footer_right.params]
     class = "mb-2"
 
-# footer middle
-[[footer_middle]]
+[[footer_right]]
 name = "Contact Us"
 url = "ins/contact-us"
 weight = 5
-[footer_middle.params]
+[footer_right.params]
     class = "mb-2"

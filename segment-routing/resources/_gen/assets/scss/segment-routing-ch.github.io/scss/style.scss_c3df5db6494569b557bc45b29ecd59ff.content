@@ -315,27 +315,6 @@ textarea.form-control {
     .customFigure > figcaption > p {
       margin-bottom: 0px; }
 
-.mw-25 {
-  max-width: 25%; }
-
-.mw-50 {
-  max-width: 50%; }
-
-.mw-75 {
-  max-width: 75%; }
-
-.mh-25 {
-  max-height: 25%; }
-
-.mh-50 {
-  max-height: 50%; }
-
-.mh-75 {
-  max-height: 75%; }
-
-.minw-400 {
-  min-width: 400px; }
-
 .nav-item {
   margin: 0; }
   .nav-item .nav-link {
@@ -359,7 +338,8 @@ textarea.form-control {
   border-radius: 10px;
   padding: 20px;
   transition: .2s ease;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 100%; }
   .feature-card svg, .feature-card i {
     font-size: 30px;
     color: #0064A3;
@@ -614,13 +594,6 @@ a.post-title {
 .twitter-margin {
   margin: -10px 25px; }
 
-.twitter-header {
-  margin: -25px auto 50px auto;
-  max-width: 100%; }
-
-.twitter-title {
-  text-align: center; }
-
 .twitter-section {
   margin: auto;
   width: fit-content; }
@@ -641,7 +614,7 @@ a.post-title {
   position: relative;
   color: black; }
   .person-card:hover {
-    box-shadow: 0 0px 28px 7px #0064a3 !important; }
+    box-shadow: 0 0px 28px 7px rgba(0, 100, 163, 0.4) !important; }
   .person-card .functions {
     color: #777;
     list-style: none;
@@ -696,10 +669,7 @@ a.post-title {
   overflow: hidden;
   position: relative;
   color: black;
-  width: 75%; }
+  width: 75%;
+  padding: 48px; }
   .project-card:hover {
-    box-shadow: 0 0px 28px 7px #0064a3 !important; }
-
-.featured-article {
-  border-bottom: 5px solid #777;
-  padding-bottom: 5rem; }
+    box-shadow: 0 0px 28px 7px rgba(0, 100, 163, 0.4) !important; }

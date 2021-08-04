@@ -6,8 +6,8 @@ contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
 footer_menu_left = "INS"
-footer_menu_middle = "Discover"
-footer_menu_right = ""
+footer_menu_middle = "Contact"
+footer_menu_right = "Discover"
 footer_content = ""
 
 # copyright
