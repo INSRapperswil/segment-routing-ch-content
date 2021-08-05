@@ -602,9 +602,6 @@ a.post-title {
   flex: 0 0 80%;
   max-width: 80%; }
 
-.course-property {
-  font-weight: 600; }
-
 .team-cards {
   max-width: 512px; }
 
@@ -676,3 +673,29 @@ a.post-title {
 
 .timeline-Widget {
   background-color: #EDF6F5 !important; }
+
+.project-image {
+  height: fit-content; }
+
+.course-instructors {
+  display: inline;
+  list-style: none; }
+  .course-instructors li {
+    display: inline; }
+    .course-instructors li::after {
+      content: ","; }
+    .course-instructors li:last-child::after {
+      content: ""; }
+
+.accordion-button:focus {
+  border: none; }
+
+.accordion-button:not(.collapsed) {
+  color: inherit; }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; }
+
+.accordion-button::after {
+  width: 3rem;
+  height: 3rem;
+  background-size: 3rem; }
