@@ -17,7 +17,7 @@ contributors:
   - "julian.klaiber@ost.ch"
   
 # This summary is used in the projects overview page.
-summary: "Jalapeño is a cloud-native infrastructure platform for network services developed by Cisco. An API Gateway is needed as a single point of access for SR-Apps."
+summary: "Jalapeño is a cloud-native infrastructure platform for network services developed by Cisco. An API Gateway is needed as a single point of access for SR-Apps. The INS is working in cooperation with Cisco Systems to develop this API Gateway."
 ---
 
 ## Introduction

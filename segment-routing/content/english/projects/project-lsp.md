@@ -9,18 +9,17 @@ image: "images/projects/project-lsp/sr-app-screenshot.png"
 
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
-description: "An application that can simulate topology changes and calculate the resulting saturation of all network links. It can also assess the quality of individual links and visualize the result."
-buttonLabel: "Check it out"
+description: "An application to simulate topology changes and calculating the resulting saturation of network links as well as assessing the quality of individual links."
 contributors:
   - "michel.bongard@ost.ch"
   - "dominique.illi@ost.ch"
 
 # This summary is used in the projects overview page.
-summary: "An application that can simulate topology changes and calculate the resulting saturation of all network links. It can also assess the quality of individual links and visualize the result."
+summary: "An application that allows a network operator to view the current state of the topology and simulate topology changes. The application is capable of calculating the  saturation of all network links for the purpose of the simulation."
 ---
 
 ## Introduction
-With the emergence of the Segment Routing (SR) technology and the development of the "Jalapeño" data collection framework by Cisco, there are many opportunities for application development that offer a benefit to network engineers and network operators. By using the network data provided by the framework, a variety of different features and use cases may be implemented. The field of application of those so-called SR-Apps is huge and can be anything from basic monitoring functionality to in depth analytics of load distribution and simulation of network changes.  
+With the emergence of the Segment Routing (SR) technology and the development of the "Jalapeño" data collection framework by <a href="https://www.cisco.com/" target="_blank" rel="noopener noreferrer">Cisco Systems</a>, there are many opportunities for application development that offer a benefit to network engineers and network operators. By using the network data provided by the framework, a variety of different features and use cases may be implemented. The field of application of those so-called SR-Apps is huge and can be anything from basic monitoring functionality to in depth analytics of load distribution and simulation of network changes.  
 This project focused on the development of an application in the field of analytics to provide information about the general network health state and link saturation in case of topology changes.
 
 <br>
