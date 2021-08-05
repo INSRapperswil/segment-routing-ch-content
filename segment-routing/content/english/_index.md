@@ -2,12 +2,9 @@
 ####################### Banner #########################
 banner:
   title : "Segment Routing by INS"
+  logo: "images/logo.png"
   image : "images/homepage-banner.png"
   content : "At the INS Institute for Networked Solutions in eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "ins/contact-us"
 
 ##################### Feature ##########################
 feature:

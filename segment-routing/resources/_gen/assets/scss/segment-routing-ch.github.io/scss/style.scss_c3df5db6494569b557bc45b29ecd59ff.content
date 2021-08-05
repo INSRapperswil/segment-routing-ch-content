@@ -1,7 +1,7 @@
 /*  typography */
 body {
   line-height: 1.2;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #777; }
@@ -12,7 +12,7 @@ p,
   color: #777;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Lato", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 small {
   font-size: 88%; }
@@ -24,7 +24,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   color: #222;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1.2; }
 
@@ -64,7 +64,7 @@ h6,
 /* Button style */
 .btn {
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   padding: 15px 30px;
@@ -332,7 +332,7 @@ textarea.form-control {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px; } }
 .banner {
-  padding: 100px 0 50px; }
+  padding: 75px 0 50px; }
 
 .feature-card {
   border-radius: 10px;
@@ -673,3 +673,6 @@ a.post-title {
   padding: 48px; }
   .project-card:hover {
     box-shadow: 0 0px 28px 7px rgba(0, 100, 163, 0.4) !important; }
+
+.timeline-Widget {
+  background-color: #EDF6F5 !important; }
