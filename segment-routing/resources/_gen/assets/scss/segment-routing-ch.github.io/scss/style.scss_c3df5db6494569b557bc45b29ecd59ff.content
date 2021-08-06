@@ -673,9 +673,6 @@ a.post-title {
 .timeline-Widget {
   background-color: #EDF6F5 !important; }
 
-.project-image {
-  height: fit-content; }
-
 .course-instructors {
   display: inline;
   list-style: none; }
