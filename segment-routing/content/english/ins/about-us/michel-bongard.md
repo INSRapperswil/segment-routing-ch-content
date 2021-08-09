@@ -22,7 +22,6 @@ tags:
   - "segmentrouting"
   - "typescript"
   - "java"
-  - "sass"
   - "grpc"
   - "golang"
 ---

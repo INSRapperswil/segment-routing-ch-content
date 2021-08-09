@@ -27,7 +27,3 @@ tags:
   - "golang"
   - "linux"
 ---
-
-<!-- Security Operations
-General projects in the area of networking
-Assistant for courses 'Computer Networks 1 & 2', 'Cloud Infrastructure' and 'Software Defined Networks' -->

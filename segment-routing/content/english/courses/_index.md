@@ -11,7 +11,7 @@ courses:
   course :
     - title : "Segment Routing"
       language : "English"
-      location : "Online"
+      location : "Online & on site"
       instructors :
         - "laurent.metzger@ost.ch"
       summary: "Discover the power of the segment routing encapsulation."
@@ -34,7 +34,7 @@ courses:
         link : "https://mylearning.ch/kurse/netzwerk/segment-routing/"
     - title : "Check out our other courses!"
       language : "German"
-      location : "INS office building in Rapperswil, Switzerland"
+      location : "On site"
       summary: "We at the INS Institute for Networked Solutions offer a wide varitey of courses in many different categories."
       content : 
       - paragraph: 

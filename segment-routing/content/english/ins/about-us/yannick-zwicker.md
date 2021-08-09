@@ -13,13 +13,16 @@ email: "yannick.zwicker@ost.ch"
 function: 
   - "Network Engineer"
 academicTitle: "BSc. FHO in Computer Science"
-certifications: ""
-fieldOfActivity: 
+certifications:
   - "CCNA Instructor"
-  - "Security Operations"
-  - "Network automation with Python"
-  - "DevOps"
-  - "ChatOps"
-  - "Docker"
-  - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
+  - "CKA"
+tags: 
+  - "kubernetes"
+  - "ansible"
+  - "devops"
+  - "ci/cd"
+  - "cloudnative"
+  - "docker"
+  - "network-automation"
+  - "python"
 ---

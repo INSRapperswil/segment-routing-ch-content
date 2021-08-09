@@ -28,9 +28,3 @@ tags:
   - "cissp"
   - "segmentrouting"
 ---
-
-
-<!-- - "Director of AWS Academy"  
-- "Lecturer for 'Computer Networks 1 & 2', 'Software Defined Networks' and 'Cloud Infrastructure'"
-- "Internet Infrastructure of the Future"
-- "Network Security" -->
