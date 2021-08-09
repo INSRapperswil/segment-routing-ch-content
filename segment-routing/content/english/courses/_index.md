@@ -2,6 +2,9 @@
 title: "Courses"
 date: 2000-04-18T10:07:21+06:00
 draft: false
+# This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
+# Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
+description: "Check out our courses on Segment Routing here at the INS Institute of Networked Solutions in eastern Switzerland."
 
 courses:
   enable : true

@@ -1,4 +1,8 @@
 ---
+# This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
+# Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
+description: "At the INS Institute for Networked Solutions in Switzerland we focus on applied Segment Routing. We provide courses and lead projects for the further development of Segment Routing."
+
 ####################### Banner #########################
 banner:
   title : "Segment Routing by INS"

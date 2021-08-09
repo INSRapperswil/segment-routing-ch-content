@@ -1,8 +1,9 @@
 ---
 title: "Contact Us"
 subtitle: ""
-# meta description
-description: "This is meta description"
+# This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
+# Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
+description: "Contact us at the INS Institute for Networked Solutions of the OST – Eastern Switzerland University of Applied Sciences."
 draft: false
 type: contact-us
 

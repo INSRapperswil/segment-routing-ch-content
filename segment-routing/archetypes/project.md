@@ -5,8 +5,7 @@ date: {{ .Date }}
 lastmod: {{ .Date.Format "2006-01-02" }}
 # when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-sliderImages:
-  - "images/ins-logo.png"
+image: "images/ins-logo.png"
 
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
