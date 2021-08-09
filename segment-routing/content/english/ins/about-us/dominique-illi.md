@@ -12,6 +12,7 @@ email: "dominique.illi@ost.ch"
 function: 
   - "Network Engineer"
 academicTitle: "BSc. FHO in Computer Science"
+certifications:
 tags:
   - "python" 
   - ".net"

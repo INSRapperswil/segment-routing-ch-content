@@ -13,6 +13,10 @@ function:
   - "Network Engineer"
   - "Teamleader"
 academicTitle: "BSc. FHO in Computer Science"
+certifications:
+- "AWS Accredited Instructor"
+- "AWS Certified Cloud Practitioner"
+- "CCNA"
 tags: 
   - "devops"
   - "chatops"

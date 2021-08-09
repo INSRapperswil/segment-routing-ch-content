@@ -11,6 +11,8 @@ weight: 3
 email: "severin.dellsperger@ost.ch"
 function: 
   - "Network Engineer"
+academicTitle: ""
+certifications:
 tags:
   - "cloudnative"
   - "ansible"

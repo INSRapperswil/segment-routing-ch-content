@@ -11,6 +11,7 @@ weight: 3
 email: "julian.klaiber@ost.ch"
 function: 
   - "Network and Research Engineer"
+academicTitle: ""
 certifications:
   - "CKA and CKAD"
   - "CCNA Instructor"

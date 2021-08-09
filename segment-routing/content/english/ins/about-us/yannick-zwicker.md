@@ -12,6 +12,7 @@ email: "yannick.zwicker@ost.ch"
 function: 
   - "Network Engineer"
 academicTitle: "BSc. FHO in Computer Science"
+certifications: ""
 fieldOfActivity: 
   - "CCNA Instructor"
   - "Security Operations"
