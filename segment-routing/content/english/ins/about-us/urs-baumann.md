@@ -6,10 +6,12 @@ type: about-us
 image: "images/ins/about-us/urs-baumann.jpg"
 # meta description
 description: ""
+# weight determines the order in which the team members are listed in the about us page
 weight: 3
 email: "urs.baumann@ost.ch"
 function: 
   - "Network Engineer"
+academicTitle: "BSc. FHO in Computer Science"
 fieldOfActivity: 
   - "CCNA, CCNP, BCNP und SDN Instructor"
   - "AWS accredited instructor"

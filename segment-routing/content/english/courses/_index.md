@@ -16,14 +16,13 @@ courses:
         - paragraph: 
           - "Discover the power of the segment routing encapsulation."
         - paragraph: 
-          - "In this course, I will explain you how to transition from MPLS to SR-MPLS and show you all the strong benefits that comes with it. You will implement in our lab amazing features like Topology Independent-Loop Free Alternate (TI-LFA) and Segment Routing Traffic Engineering (SR-TE). You will learn how to steer the L3 VPN traffic
-          into specific paths calculated using different metrics (cost, TE and delay) and other constraints (link affinity, ...)."
-          - "Then we will add a XTC controller and delegate some functions to the controller. Thanks to the controller, features like Disjointness or multi-domain are made possible. With the latest capability, it is now possible to build end-to-end path across multiple domains without routing the loopbacks of the PEs in eachother domain!"
+          - "In this course, I will explain to you how to transition from MPLS to SR-MPLS and show you all the substantial benefits that come with it. In our lab, you will implement unique features like Topology Independent-Loop Free Alternate (TI-LFA) and Segment Routing Traffic Engineering (SR-TE). You will learn how to steer the L3 VPN traffic into specific paths calculated using different metrics (cost, TE, and delay) and other constraints (link affinity, …)."
+          - "Then we will add an XTC controller and delegate some functions to the controller. Thanks to the controller, features like Disjointness or multi-domain are made possible. With the latest capability, it is now possible to build an end-to-end path across multiple domains without routing the loopbacks of the PEs in each other domain!"
         - paragraph: 
           - "After understanding the features and the basics of SR with SR-MPLS, the encapsulation SRv6 will be introduced."
-          - "SRv6 will give even more possibilities than SR-MPLS and it is the encapsulation of the future. L3 VPNs can now be built without MPLS! Important SRv6-specific optimization like microSID (uSID) will be presented in details. In our lab, you will be able to experience SRv6 and deepen your knowledge. In an SR-encapsulated network, the controllers play a key role, especially in big and very big networks. That's why I will show you how to design controllers for high-availability and fault-tolerance."
+          - "SRv6 will give even more possibilities than SR-MPLS, and it is the encapsulation of the future. L3 VPNs can now be built without MPLS! Important SRv6-specific optimization like microSID (uSID) will be presented in detail. In our lab, you will be able to experience SRv6 and deepen your knowledge. The controllers play a crucial role in an SR-encapsulated network, especially in large networks. That’s why I will show you how to design controllers for high availability and fault tolerance."
         - paragraph: 
-          - "Finally, I will show you what Segment Routing Applications (SR-Apps) are and how those are a game changer for the operation, monitoring and provisioning of networks."
+          - "Finally, I will show you what Segment Routing Applications (SR-Apps) are and how those are a game-changer for operating, monitoring, and provisioning networks."
         - paragraph: 
           - "Prof. Laurent Metzger"
       button:

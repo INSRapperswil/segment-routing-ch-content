@@ -6,17 +6,17 @@ type: about-us
 image: "images/ins/about-us/jessica-hilti.png"
 # meta description
 description: ""
+# weight determines the order in which the team members are listed in the about us page
 weight: 2
 email: "jessica.hilti@ost.ch"
 function: 
-  - "Teamleader"
   - "Network Engineer"
-fieldOfActivity: 
-  - "AWS Certified Cloud Practitioner"
-  - "Software Defined Networking (Cisco DNA)"
-  - "General projects in the area of networking"
-  - "Network automation with Python"
-  - "DevOps"
-  - "ChatOps"
-  - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
+  - "Teamleader"
+academicTitle: "BSc. FHO in Computer Science"
+tags: 
+  - "devops"
+  - "chatops"
+  - "instructor"
+  - "python"
+  - "network-automation"
 ---

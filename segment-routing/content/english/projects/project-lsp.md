@@ -5,7 +5,7 @@ date: 2020-09-20T08:00:00+02:00
 lastmod: 2021-07-31
 # when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-image: "images/projects/project-lsp/sr-app-screenshot.png"
+image: "images/projects/project-lsp/banner.png"
 
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)

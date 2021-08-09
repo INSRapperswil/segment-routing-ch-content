@@ -202,7 +202,7 @@ a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     /* number of lines to show */
     -webkit-box-orient: vertical; }
   .section .card-foot, .section .section-foot {
@@ -602,7 +602,7 @@ a.post-title {
   flex: 0 0 80%;
   max-width: 80%; }
 
-.team-cards {
+.team-card {
   max-width: 512px; }
 
 .person-card {
@@ -616,14 +616,7 @@ a.post-title {
     color: #777;
     list-style: none;
     padding-left: 0;
-    margin-bottom: 0.75rem; }
-  .person-card .fieldOfActivity {
-    padding-left: 0px; }
-    .person-card .fieldOfActivity > li {
-      list-style-position: inside;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis; }
+    margin-bottom: 1rem; }
 
 .person {
   font-size: 1.1rem; }
@@ -633,9 +626,9 @@ a.post-title {
   list-style: none;
   padding-left: 0; }
 
-.person-projects > li > a {
+.person-ul > li > a {
   color: #0064A3; }
-  .person-projects > li > a:hover {
+  .person-ul > li > a:hover {
     color: #777; }
 
 .person-footer {
@@ -695,3 +688,38 @@ a.post-title {
   width: 3rem;
   height: 3rem;
   background-size: 3rem; }
+
+.project-image-container {
+  height: 200px; }
+
+.default-cursor-on-hover:hover {
+  cursor: default; }
+
+.prepend-hashtag::before {
+  content: "#"; }
+
+.hidden {
+  display: none; }
+
+.tag-checkbox:hover {
+  cursor: pointer;
+  border-color: #0064A3;
+  background-color: #0064A3;
+  color: white; }
+
+.tag-checkbox > input {
+  appearance: none; }
+
+.tag-checkbox > label {
+  cursor: pointer; }
+  .tag-checkbox > label::before {
+    content: "#"; }
+
+.tag-checkbox.checked {
+  border-color: #0064A3;
+  background-color: #0064A3;
+  color: white; }
+
+.card-tags {
+  font-size: 0.8rem;
+  padding-bottom: 2.7rem; }

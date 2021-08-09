@@ -6,16 +6,15 @@ type: about-us
 image: "images/ins/about-us/severin-dellsperger.png"
 # meta description
 description: ""
+# weight determines the order in which the team members are listed in the about us page
 weight: 3
 email: "severin.dellsperger@ost.ch"
 function: 
   - "Network Engineer"
-fieldOfActivity: 
-  - "CCNA Instructor"
-  - "Security Operations"
-  - "Network automation with Python"
-  - "DevOps"
-  - "ChatOps"
-  - "General projects in the area of networking"
-  - "Assistant for courses 'Computer Networks 1 & 2' and 'Cloud Infrastructure'"
+tags:
+  - "cloudnative"
+  - "ansible"
+  - "python"
+  - "segmentrouting"
+  - "linux"
 ---

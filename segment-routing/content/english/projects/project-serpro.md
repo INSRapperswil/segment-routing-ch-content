@@ -5,7 +5,7 @@ date: 2021-02-20T08:00:00+02:00
 lastmod: 2021-07-30
 # when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-image: "images/projects/project-serpro/serpro-logo.png"
+image: "images/projects/project-serpro/banner.png"
 
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
@@ -16,7 +16,7 @@ contributors:
   - "severin.dellsperger@ost.ch"
   
 # This summary is used in the projects overview page.
-summary: "Dynamic service programming application which uses the functionalities of SRv6."
+summary: "Service Programming delivers a dynamic way to program a predefined path trough the network and solves the problem with static service consumption. The application calculates and deploys so called SR service policies to the network in order to steer the traffic through predefined services."
 ---
 
 ## Introduction
