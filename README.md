@@ -37,7 +37,7 @@ Go to [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download th
 For example for Linux, choose the latest version (currently `hugo_extended_0.86.1_Linux-64bit.deb`) and run these commands:
 ```bash
 wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
-sudo dpkg --install ./hugo_0.86.1_Linux-64bit.deb
+sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
 ```
 
 ### Clone & Initialize the Repository
@@ -123,12 +123,8 @@ At the top of the file you will see code that is enveloped by `---` that looks s
 ---
 title: "Article 1"
 date: 2000-04-18T10:07:21+06:00
+lastmod: 2006-01-02
 image: "path/to/image"
-sliderImages:
-  - "path/to/first-image"
-  - "path/to/second-image"
-  - "path/to/third-image"
-type: "featured"
 onHomepage: true
 description: "This is meta description"
 draft: false
@@ -141,16 +137,11 @@ This is called front matter, and is simply the files metadata written in `YAML`.
 - `date`
 	- Typically the creation date of your article or project. 
 	- This date is also used to sort articles and projects chronologically on the website.
+- `lastmod`
+	- Only relevant for projects. 
+	- The date when the project page was last modified.
 - `image`
 	- The path to the main image, which is shown in the overview pages. Of course you can add additional images in the content of the file.
-- `sliderImages`
-	- Only relevant for projects.
-	- The paths to the individual images used for the sliders in the overview page https://www.segment-routing.ch/projects
-- `type`
-	- Only relevant for articles.
-	- This field can be set to either `"featured"` or `"regular"`.
-	- If it is set to `"featured"` it will be shown as the featured article on https://www.segment-routing.ch/articles
-	- Only one article should be set to `"featured"`, all others should be regular. Even if multiple articles are set to `"featured"`, only one is shown as featured.
 - `onHomepage`
 	- Only relevant for articles.
 	- If set to `true`, the article is shown on the homepage. You can show as many articles as you want on the homepage.
@@ -175,16 +166,10 @@ This will start a webserver on http://localhost:1313
 ### Deploying the Website
 Once you are happy with your changes, you can build and deploy the website. In the root of the project, run this command:
 ```bash
-./build-site.sh
-```
- This will compile the code and update the content in the directory `segment-routing/public`.
- If it was able to build without errors, the site is ready to be deployed. Run this command: 
-```bash
 ./deploy-site.sh "Provide a commit message"
 ```
-This will push the content of the directory `segment-routing/public` to the GitHub Pages repository `segment-routing-ch.github.io`.
-
-<ins>**[Important! Do not forget to commit your changes to this (the source) repository when you are done!](#important-commiting-to-this-repository)**</ins>
+This will build the website and then push the content of the directory `segment-routing/public` to the GitHub Pages repository `segment-routing-ch.github.io`.
+Finally, it will commit all your changes to both the theme repository and the content repository (this one).
 
 ## Updating the Theme
 If you want to make changes to the styling or otherwise update the theme, you can do so by editing the files in `segment-routing/themes/segment-routing-ch-theme`.
@@ -194,4 +179,4 @@ Once you have made your changes, you need to remember to commit them to the them
 ./commit-theme-changes.sh
 ```
 
-<ins>**[Important! Do not forget to commit your changes to this (the source) repository when you are done!](#important-commiting-to-this-repository)**</ins>
+<ins>**Important! Even if you made changes only to the theme, you still need to commit your changes to this repository (the source repository) as well, because the submodule must is now pointing to the new HEAD.**</ins>
