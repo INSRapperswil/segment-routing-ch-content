@@ -20,4 +20,4 @@ The INS Institute for Networked Solutions of the <a href="https://www.ost.ch/en/
 - Security
 
 <br />
-We from the competence center **Cloud Networking** are intrigued by the possibilities that Segment Routing offers and focus our efforts on the further development of Segement Routing Applications.
+We from the competence center **Cloud Networking** are intrigued by the possibilities that Segment Routing offers and focus our efforts on the further development of Segment Routing Applications.

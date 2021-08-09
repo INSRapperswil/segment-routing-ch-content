@@ -25,6 +25,7 @@ tags:
   - "ccie"
   - "ceh"
   - "cissp"
+  - "segmentrouting"
 ---
 
 
