@@ -1,7 +1,7 @@
 /*  typography */
 body {
   line-height: 1.2;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #777; }
@@ -12,7 +12,7 @@ p,
   color: #777;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Lato", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 small {
   font-size: 88%; }
@@ -24,7 +24,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   color: #222;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1.2; }
 
@@ -64,7 +64,7 @@ h6,
 /* Button style */
 .btn {
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   padding: 15px 30px;
@@ -202,7 +202,7 @@ a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     /* number of lines to show */
     -webkit-box-orient: vertical; }
   .section .card-foot, .section .section-foot {
@@ -224,7 +224,14 @@ a:hover {
   border-color: #ECECEC !important; }
 
 a {
+  color: #0064A3; }
+  a:hover {
+    color: #222; }
+
+.a-inverted {
   color: #222; }
+  .a-inverted:hover {
+    color: #0064A3; }
 
 /* overlay */
 .overlay {
@@ -253,6 +260,9 @@ a {
 
 .shadow, .feature-card:hover, .btn:hover, .btn:active, .btn:focus {
   box-shadow: 0 12px 24px -6px rgba(45, 67, 121, 0.1) !important; }
+
+.strong-shadow {
+  box-shadow: 0 0px 14px 14px rgba(45, 67, 121, 0.1) !important; }
 
 .form-control:focus {
   outline: 0;
@@ -287,6 +297,24 @@ textarea.form-control {
     left: -30px;
     top: 3px; }
 
+.customFigure {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .customFigure.leftInText {
+    float: left;
+    margin-left: 0px; }
+  .customFigure.rightInText {
+    float: right;
+    margin-right: 0px; }
+  .customFigure > img {
+    margin-bottom: 0.5rem; }
+  .customFigure > figcaption {
+    margin-bottom: 0px; }
+    .customFigure > figcaption > p {
+      margin-bottom: 0px; }
+
 .nav-item {
   margin: 0; }
   .nav-item .nav-link {
@@ -304,13 +332,14 @@ textarea.form-control {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px; } }
 .banner {
-  padding: 100px 0 50px; }
+  padding: 75px 0 50px; }
 
 .feature-card {
   border-radius: 10px;
   padding: 20px;
   transition: .2s ease;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 100%; }
   .feature-card svg, .feature-card i {
     font-size: 30px;
     color: #0064A3;
@@ -364,13 +393,14 @@ a.post-title {
   font-weight: 600; }
 
 .content a {
-  color: #777;
+  color: #0064A3;
   border-bottom: 1px dotted #ECECEC; }
   .content a:hover {
-    color: #0064A3; }
+    color: #777; }
 
 .content ol,
 .content ul {
+  display: flow-root;
   padding-left: 20px; }
   .content ol li,
   .content ul li {
@@ -560,3 +590,136 @@ a.post-title {
 .price {
   font-size: 50px;
   color: #222; }
+
+.twitter-margin {
+  margin: -10px 25px; }
+
+.twitter-section {
+  margin: auto;
+  width: fit-content; }
+
+.course-card {
+  flex: 0 0 80%;
+  max-width: 80%; }
+
+.team-card {
+  max-width: 512px; }
+
+.person-card {
+  height: 288px;
+  overflow: hidden;
+  position: relative;
+  color: black; }
+  .person-card:hover {
+    box-shadow: 0 0px 28px 7px rgba(0, 100, 163, 0.4) !important; }
+  .person-card .functions {
+    color: #777;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1rem; }
+
+.person {
+  font-size: 1.1rem; }
+
+.person-functions {
+  color: #777;
+  list-style: none;
+  padding-left: 0; }
+
+.person-ul > li > a {
+  color: #0064A3; }
+  .person-ul > li > a:hover {
+    color: #777; }
+
+.person-footer {
+  position: absolute;
+  bottom: 0px;
+  right: 24px; }
+
+.person-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+
+.person-contact {
+  color: black;
+  font-size: inherit; }
+  .person-contact a {
+    font-size: inherit;
+    color: #0064A3; }
+    .person-contact a:hover {
+      color: #777; }
+
+.centered-caption > .caption {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-align: center; }
+
+.project-card {
+  overflow: hidden;
+  position: relative;
+  color: black;
+  padding: 48px; }
+  .project-card:hover {
+    box-shadow: 0 0px 28px 7px rgba(0, 100, 163, 0.4) !important; }
+
+.timeline-Widget {
+  background-color: #EDF6F5 !important; }
+
+.course-instructors {
+  display: inline;
+  list-style: none; }
+  .course-instructors li {
+    display: inline; }
+    .course-instructors li::after {
+      content: ","; }
+    .course-instructors li:last-child::after {
+      content: ""; }
+
+.accordion-button:focus {
+  border: none; }
+
+.accordion-button:not(.collapsed) {
+  color: inherit; }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; }
+
+.accordion-button::after {
+  width: 3rem;
+  height: 3rem;
+  background-size: 3rem; }
+
+.project-image-container {
+  height: 200px; }
+
+.default-cursor-on-hover:hover {
+  cursor: default; }
+
+.prepend-hashtag::before {
+  content: "#"; }
+
+.hidden {
+  display: none; }
+
+.tag-checkbox:hover {
+  cursor: pointer;
+  border-color: #0064A3;
+  background-color: #0064A3;
+  color: white; }
+
+.tag-checkbox > input {
+  appearance: none; }
+
+.tag-checkbox > label {
+  cursor: pointer; }
+  .tag-checkbox > label::before {
+    content: "#"; }
+
+.tag-checkbox.checked {
+  border-color: #0064A3;
+  background-color: #0064A3;
+  color: white; }
+
+.card-tags {
+  font-size: 0.8rem;
+  padding-bottom: 2.7rem; }
