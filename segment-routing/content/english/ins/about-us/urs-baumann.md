@@ -13,6 +13,19 @@ email: "urs.baumann@ost.ch"
 function: 
   - "Network Engineer"
 academicTitle: "BSc. FHO in Computer Science"
-certifications: ""
+certifications:
+  - "CCNP Enterprise Infrastructure"
+  - "CCNP Data Center"
+  - "AWS Academy Accredited Educator"
+  - "BCNP"
+  - "MCA200 (OpenStack)"
 tags: 
+  - "instructor"
+  - "network-automation"
+  - "infrastructureascode"
+  - "IaC"
+  - "python"
+  - "nornir"
+  - "ansible"
+  - "devops"
 ---
