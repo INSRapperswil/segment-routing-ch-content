@@ -14,16 +14,18 @@ function:
   - "Network and Research Engineer"
 academicTitle: ""
 certifications:
-  - "CKA and CKAD"
+  - "CKA"
+  - "CKAD"
+  - "CCNA R&S"
   - "CCNA Instructor"
 tags: 
   - "cloudnative"
   - "kubernetes"
-  - "docker"
   - "segmentrouting"
+  - "python"
+  - "docker"
   - "ansible"
   - "devops"
-  - "python"
   - "golang"
   - "linux"
 ---
