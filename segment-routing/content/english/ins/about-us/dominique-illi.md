@@ -14,6 +14,9 @@ function:
   - "Network Engineer"
 academicTitle: "BSc. FHO in Computer Science"
 certifications:
+  - "CCNA R&S"
+  - "CCNP R&S"
+  - "CCNA Instructor"
 tags:
   - "python" 
   - ".net"
