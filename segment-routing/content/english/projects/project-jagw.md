@@ -5,7 +5,7 @@ date: 2021-06-29T08:00:00+02:00
 lastmod: 2021-08-05
 # when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-image: "images/projects/project-jagw/banner.png"
+image: "/images/projects/project-jagw/banner.png"
 
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
@@ -33,7 +33,7 @@ Jalapeño captures network topology and performance data made available through 
 
 The current model is error prone and not very flexible. Any changes to the data model would most likely result in breaking changes for SR-Apps. Also, depending on the number of SR-Apps, the amount of database request may become problematic.
 
-{{% figure src="images/projects/project-jagw/jalapeño_without_api_gateway.png" alt="Jalapeño without an API Gateway" caption="Jalapeño without an API Gateway" width="500px" / %}}
+{{% figure src="/images/projects/project-jagw/jalapeño_without_api_gateway.png" alt="Jalapeño without an API Gateway" caption="Jalapeño without an API Gateway" width="500px" / %}}
 
 <br>
 
@@ -46,4 +46,4 @@ An API Gateway comes with several advantages:
 - It can incorporate a push service, that allows SR-Apps to subscribe to live updates on specific collections or counters.
 - It can use caching for frequently requested data to respond faster to requests and to reduce the load on the databases.
 
-{{% figure src="images/projects/project-jagw/jalapeño_with_api_gateway.png" alt="Jalapeño with an API Gateway" caption="Jalapeño with an API Gateway" width="600px" / %}}
+{{% figure src="/images/projects/project-jagw/jalapeño_with_api_gateway.png" alt="Jalapeño with an API Gateway" caption="Jalapeño with an API Gateway" width="600px" / %}}

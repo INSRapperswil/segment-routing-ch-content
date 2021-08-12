@@ -23,14 +23,14 @@ googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1354.
 ### Our Campus
 The INS Institute of Networked Solutions of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> is based in Switzerland, sitting between the train station of Rapperswil and the lake Obersee. The university is located less than a minute on foot from the train station.
 
-{{< slider "images/ost-campus/ost-campus-1.jpg" "images/ost-campus/ost-campus-2.jpg" "images/ost-campus/ost-campus-3.jpg" >}}
+{{< slider "/images/ost-campus/ost-campus-1.jpg" "/images/ost-campus/ost-campus-2.jpg" "/images/ost-campus/ost-campus-3.jpg" >}}
 
 <br />
 
 ### Our Office
 Our office 8.262 is located in building 8 «Forschungszentrum».  
 
-{{< slider "images/ost-campus/ost-campus-building-8-1.jpg" "images/ost-campus/ost-campus-building-8-2.jpg" "images/ost-campus/ost-campus-building-8-3.jpg" "images/ost-campus/ost-campus-building-8-4.jpg" >}}
+{{< slider "/images/ost-campus/ost-campus-building-8-1.jpg" "/images/ost-campus/ost-campus-building-8-2.jpg" "/images/ost-campus/ost-campus-building-8-3.jpg" "/images/ost-campus/ost-campus-building-8-4.jpg" >}}
 
 <br />
 

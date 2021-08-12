@@ -6,17 +6,17 @@ weight = 1
 
 [[main]]
 name = "Articles"
-url = "articles"
+url = "/articles"
 weight = 2
 
 [[main]]
 name = "Projects"
-url = "projects"
+url = "/projects"
 weight = 3
 
 [[main]]
 name = "Courses"
-url = "courses"
+url = "/courses"
 weight = 4
 
 [[main]]
@@ -27,25 +27,25 @@ weight = 5
 [[main]]
 name = "About Us"
 parent = "ins"
-url = "ins/about-us"
+url = "/ins/about-us"
 weight = 1
 
 [[main]]
 name = "Contact Us"
 parent = "ins"
-url = "ins/contact-us"
+url = "/ins/contact-us"
 weight = 2
 
 [[footer_left]]
 name = "INS Institute for Networked Solutions"
-url = "ins/about-us"
+url = "/ins/about-us"
 weight = 1
 [footer_left.params]
     class = "mb-2"
 
 [[footer_left]]
 name = "OST – Eastern Switzerland University of Applied Sciences"
-url = "ins/contact-us"
+url = "/ins/contact-us"
 weight = 2
 [footer_left.params]
     class = "mb-2"
@@ -90,35 +90,35 @@ weight = 6
 
 [[footer_right]]
 name = "Articles"
-url = "articles"
+url = "/articles"
 weight = 1
 [footer_right.params]
     class = "mb-2"
 
 [[footer_right]]
 name = "Projects"
-url = "projects"
+url = "/projects"
 weight = 2
 [footer_right.params]
     class = "mb-2"
 
 [[footer_right]]
 name = "Courses"
-url = "courses"
+url = "/courses"
 weight = 3
 [footer_right.params]
     class = "mb-2"
 
 [[footer_right]]
 name = "About Us"
-url = "ins/about-us"
+url = "/ins/about-us"
 weight = 4
 [footer_right.params]
     class = "mb-2"
 
 [[footer_right]]
 name = "Contact Us"
-url = "ins/contact-us"
+url = "/ins/contact-us"
 weight = 5
 [footer_right.params]
     class = "mb-2"

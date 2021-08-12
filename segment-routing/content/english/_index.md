@@ -6,8 +6,8 @@ description: "At the INS Institute for Networked Solutions in Switzerland we foc
 ####################### Banner #########################
 banner:
   title : "Segment Routing by INS"
-  logo: "images/logo.png"
-  image : "images/homepage-banner.png"
+  logo: "/images/logo.png"
+  image : "/images/homepage-banner.png"
   content : "At the INS Institute for Networked Solutions in eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
 
 ##################### Feature ##########################
@@ -19,19 +19,19 @@ feature:
     - name : "Projects"
       icon : "fas fa-file-code"
       content : "Want to know what we are doing? Have a look at our projects!"
-      link : "projects"
+      link : "/projects"
       
     # feature item loop
     - name : "Courses"
       icon : "fas fa-chalkboard-teacher"
       content : "Check out our courses on Segment Routing and much more!"
-      link : "courses"
+      link : "/courses"
       
     # feature item loop
     - name : "The Team"
       icon : "fas fa-users"
       content : "Highly experienced, practiced and motivated."
-      link : "ins/about-us/#ins-cloud-networking-team"
+      link : "/ins/about-us/#ins-cloud-networking-team"
 
 ##################### Twitter ##########################
 twitter: 

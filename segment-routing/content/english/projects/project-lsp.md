@@ -5,7 +5,7 @@ date: 2020-09-20T08:00:00+02:00
 lastmod: 2021-07-31
 # when draft is set to true, it will only show up during development, but not when the website is deployed.
 draft: false
-image: "images/projects/project-lsp/banner.png"
+image: "/images/projects/project-lsp/banner.png"
 
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
@@ -26,13 +26,13 @@ This project focused on the development of an application in the field of analyt
 
 ## Technologies
 The application is built using a monolithic architecture with ASP.Net Core. The backend is written entirely in C#, while the client-side application is implemented using JavaScript, HTML and Sass as well as vis.js as the graph visualization library. The client-server communication is managed by the web socket library SignalR.
-{{% figure src="images/projects/project-lsp/technology_stack.png" alt="Technology Stack" caption="Technology Stack" width="600px" / %}}
+{{% figure src="/images/projects/project-lsp/technology_stack.png" alt="Technology Stack" caption="Technology Stack" width="600px" / %}}
 
 <br>
 
 ## Features
 ### Feature 1: Link Quality Assessment
-{{% figure src="images/projects/project-lsp/link_quality_assessment.jpg" alt="Example: Link Quality Assessment" caption="Example: Link Quality Assessment" class="rightInText" width="600px" %}}
+{{% figure src="/images/projects/project-lsp/link_quality_assessment.jpg" alt="Example: Link Quality Assessment" caption="Example: Link Quality Assessment" class="rightInText" width="600px" %}}
 ##### 1. Color Coding  
 Links are color coded based on their quality for different metrics (such as link delay, packet loss, etc.).
 For example:
@@ -47,7 +47,7 @@ The importance of a link is shown through its thickness. The thicker the link is
 {{% /figure %}}
 
 ### Feature 2: Link Saturation Prediction
-{{% figure src="images/projects/project-lsp/link_saturation_prediction.png" alt="Example: Link Saturation Prediction" caption="Example: Link Saturation Prediction" class="rightInText" width="600px" %}}
+{{% figure src="/images/projects/project-lsp/link_saturation_prediction.png" alt="Example: Link Saturation Prediction" caption="Example: Link Saturation Prediction" class="rightInText" width="600px" %}}
 The feature Link Saturation Prediction allows the user to **simulate** changes to the topology, such as:
 - Removing/Adding links
 - Removing/Adding nodes
@@ -89,7 +89,7 @@ Redistribution of traffic | 1.0 seconds
 The resulting application combines the features **Link Quality Assessment** and **Link Saturation Prediction** and provides a single user interface for both. It provides a visual representation of the network including all nodes (which can be clustered by region) and links. Through the color coding and varying link thickness, the user can assess the network health very quickly. With the help of control buttons, the user can interactively make changes to the topology and simulate its effect, such as simulating a link failure or drawing new links.
 
 The application is scalable for networks consisting of up to a thousand routers.
-{{% figure src="images/projects/project-lsp/sr-app-screenshot-full.png" alt="SR-App screenshot" caption="SR-App Screenshot" %}}
+{{% figure src="/images/projects/project-lsp/sr-app-screenshot-full.png" alt="SR-App screenshot" caption="SR-App Screenshot" %}}
 
 <br>
 
