@@ -14,6 +14,7 @@ function:
   - "INS Institute Director"
 academicTitle: "Professor for Internet Infrastructure"
 certifications:
+  - "CKA"
   - "AWS Accredited Instructor"
   - "AWS Certified Cloud Practitioner"
   - "SysOps Administrator Associate and Solutions Architect Associate"
@@ -22,9 +23,10 @@ certifications:
   - "Certified Information Systems Security Professional (CISSP)"
 tags: 
   - "instructor"
+  - "segmentrouting"
+  - "kubernetes"
   - "ccde"
   - "ccie"
   - "ceh"
   - "cissp"
-  - "segmentrouting"
 ---
