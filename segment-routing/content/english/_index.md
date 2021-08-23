@@ -8,7 +8,7 @@ banner:
   title : "Segment Routing by INS"
   logo: "/images/logo.png"
   image : "/images/homepage-banner.png"
-  content : "At the INS Institute for Networked Solutions in eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
+  content : "At the INS Institute for Networked Solutions in Eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
 
 ##################### Feature ##########################
 feature:
@@ -35,9 +35,9 @@ feature:
 
 ##################### Twitter ##########################
 twitter: 
-  feed: "https://twitter.com/SegmentRouting?ref_src=twsrc%5Etfw"
-  title: "Tweets by @SegmentRouting"
-  link_title: "https://twitter.com/SegmentRouting"
-  placeholder: "Tweets by SegmentRouting"
+  feed: "https://twitter.com/Segment_Routing?ref_src=twsrc%5Etfw"
+  title: "Tweets by @Segment_Routing"
+  link_title: "https://twitter.com/Segment_Routing"
+  placeholder: "Tweets by Segment_Routing"
       
 ---
