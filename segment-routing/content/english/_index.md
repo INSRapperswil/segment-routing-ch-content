@@ -36,8 +36,8 @@ feature:
 ##################### Twitter ##########################
 twitter: 
   feed: "https://twitter.com/Segment_Routing?ref_src=twsrc%5Etfw"
-  title: "Tweets by @Segment_Routing"
+  title: "Tweets by SegmentRoutingCH"
   link_title: "https://twitter.com/Segment_Routing"
-  placeholder: "Tweets by Segment_Routing"
+  placeholder: "Tweets by SegmentRoutingCH"
       
 ---
