@@ -15,4 +15,9 @@ function:
 academicTitle: "BSc. FHO in Computer Science"
 certifications:
 tags:
+  - "nodejs"
+  - "typescript"
+  - "react"
+  - "python"
+  - "docker"
 ---
