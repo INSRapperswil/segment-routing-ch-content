@@ -12,7 +12,7 @@ weight: 3
 email: "severin.dellsperger@ost.ch"
 function: 
   - "Network and Research Engineer"
-academicTitle: ""
+academicTitle: "BSc. FHO in Computer Science"
 certifications:
   - "CCNA R&S"
   - "CCNA Instructor"

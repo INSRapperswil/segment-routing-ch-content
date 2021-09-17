@@ -12,7 +12,7 @@ weight: 3
 email: "michel.bongard@ost.ch"
 function: 
   - "System Engineer"
-academicTitle: ""
+academicTitle: "BSc. FHO in Computer Science"
 certifications:
 tags: 
   - "full-stack"

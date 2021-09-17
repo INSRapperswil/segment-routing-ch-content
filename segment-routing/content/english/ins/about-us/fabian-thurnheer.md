@@ -1,31 +1,23 @@
 ---
-title: "Julian Klaiber"
+title: "Fabian Thurnheer"
 draft: false
 type: about-us
 # post image
-image: "/images/ins/about-us/julian-klaiber.png"
+image: "/images/ins/about-us/fabian-thurnheer.jpg"
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
-description: "Network and Research Engineer at INS Institute for Networked Solutions in eastern Switzerland."
+description: "Network Engineer at INS Institute for Networked Solutions in eastern Switzerland."
 # weight determines the order in which the team members are listed in the about us page
 weight: 3
-email: "julian.klaiber@ost.ch"
+email: "fabian.thurnheer@ost.ch"
 function: 
-  - "Network and Research Engineer"
+  - "Network Engineer"
 academicTitle: "BSc. FHO in Computer Science"
 certifications:
-  - "CKA"
-  - "CKAD"
-  - "CCNA R&S"
-  - "CCNA Instructor"
-tags: 
-  - "cloudnative"
-  - "kubernetes"
-  - "segmentrouting"
+tags:
+  - "nodejs"
+  - "typescript"
+  - "react"
   - "python"
   - "docker"
-  - "ansible"
-  - "devops"
-  - "golang"
-  - "linux"
 ---
