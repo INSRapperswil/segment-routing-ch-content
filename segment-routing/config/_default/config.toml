@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://segment-routing.ch"
-title = "Segment Routing"
+title = "Segment Routing by INS"
 languageCode = "en-us"
 theme = "segment-routing-ch-theme"
 # post pagination
