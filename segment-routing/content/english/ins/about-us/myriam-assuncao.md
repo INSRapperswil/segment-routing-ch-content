@@ -12,7 +12,12 @@ weight: 3
 email: "myriam.assuncao@ost.ch"
 function: 
   - "Network Engineer"
-academicTitle: "BSc. FHO in Computer Science"
+academicTitle:
 certifications:
+  - "CCNA R&S"
+  - "CCNA Instructor"
+  - "Bachelor of Design, focus on Game Design"
 tags: 
+  - "latex"
+  - "segmentrouting"
 ---

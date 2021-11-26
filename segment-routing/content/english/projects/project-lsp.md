@@ -89,7 +89,10 @@ Redistribution of traffic | 1.0 seconds
 The resulting application combines the features **Link Quality Assessment** and **Link Saturation Prediction** and provides a single user interface for both. It provides a visual representation of the network including all nodes (which can be clustered by region) and links. Through the color coding and varying link thickness, the user can assess the network health very quickly. With the help of control buttons, the user can interactively make changes to the topology and simulate its effect, such as simulating a link failure or drawing new links.
 
 The application is scalable for networks consisting of up to a thousand routers.
-{{% figure src="/images/projects/project-lsp/sr-app-screenshot-full.png" alt="SR-App screenshot" caption="SR-App Screenshot" %}}
+
+### Demonstration
+
+{{< youtube SouxeTTXx1E >}}
 
 <br>
 
