@@ -1,0 +1,5 @@
+{{ $images := slice }}
+{{ range .Params }}
+    {{ $images = $images | append . }}
+{{ end }}
+{{ partial "slider.html" (dict "images" $images "controls" true) }}

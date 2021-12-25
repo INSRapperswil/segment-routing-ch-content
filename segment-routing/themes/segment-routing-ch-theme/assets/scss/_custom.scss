@@ -1,0 +1,189 @@
+// This file is empty within the template
+// You can use it to override CSS from within your project
+
+.twitter-margin {
+    margin: -10px 25px;
+}
+
+.twitter-section {
+    margin: auto;
+    width: fit-content;
+}
+
+.course-card {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+.team-card {
+    max-width: 512px;
+}
+
+.person-card {
+    height: 288px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+
+    &:hover {
+        box-shadow: 0 0px 28px 7px $box-shadow-color !important;
+    }
+
+    .functions {
+        color: #777;
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+.person {
+    font-size: 1.1rem;
+}
+.person-functions {
+    color: #777;
+    list-style: none;
+    padding-left: 0;
+}
+
+.person-ul {    
+    > li > a {
+        color: $primary-color;
+        
+        &:hover {
+            color: #777;
+        }
+    }
+}
+
+.person-footer {
+    position: absolute;
+    bottom: 0px;
+    right: 24px;
+}
+
+.person-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.person-contact {
+    color: black;
+    font-size: inherit;
+
+    a {
+        font-size: inherit;
+        color: $primary-color;
+        
+        &:hover {
+            color: #777;
+        }
+    }
+}
+
+.centered-caption > .caption {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.project-card {
+    overflow: hidden;
+    position: relative;
+    color: black;
+    padding: 48px;
+
+    &:hover {
+        box-shadow: 0 0px 28px 7px $box-shadow-color !important;
+    }
+}
+
+.timeline-Widget {
+    background-color: $light !important;
+}
+
+.course-instructors {
+    display: inline;
+    list-style: none;
+
+    & li {
+        display: inline;
+
+        &::after {
+            content: ",";
+        }
+
+        &:last-child::after {
+            content: "";
+        }
+    }
+}
+
+.accordion-button {
+    &:focus {
+        border: none;
+    }
+
+    &:not(.collapsed) {
+        color: inherit;
+
+        &::after {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+          }
+    }
+
+    &::after {
+        width: 3rem;
+        height: 3rem;
+        background-size: 3rem;
+    }
+}
+
+.project-image-container {
+    height: 200px;
+}
+
+.default-cursor-on-hover:hover {
+    cursor: default;
+}
+
+.prepend-hashtag::before {
+    content: "#";
+}
+
+.hidden {
+    display: none;
+}
+
+.tag-checkbox {
+    &:hover {
+        cursor: pointer;
+        border-color: $primary-color;
+        background-color: $primary-color;
+        color: white;
+    }
+    
+    & > input {
+        appearance: none;
+    }
+
+    & > label {
+        cursor: pointer;
+
+        &::before {
+            content: "#";
+        }
+    }
+
+    &.checked {
+        border-color: $primary-color;
+        background-color: $primary-color;
+        color: white;
+    }
+}
+
+.card-tags {
+    font-size: 0.8rem;
+    padding-bottom: 2.7rem;
+}

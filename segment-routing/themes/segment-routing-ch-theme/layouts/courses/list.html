@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<!-- courses -->
+{{ with .Params.courses }}
+<section class="section pt-5">
+  <div class="container">
+    <div class="accordion accordion-flush w-75 mx-auto" id="courses-accordion">
+      {{ range $index, $courseItem := .course }}
+        <div class="accordion-item pb-3 mb-3 border-0">
+          <h2 class="accordion-header border-0" id="heading-{{ $index }}">
+            <button class="accordion-button bg-light shadow rounded-lg collapsed d-flex flex-column justify-content-center p-4 pb-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ $index }}" aria-expanded="true" aria-controls="collapse-{{ $index }}">
+              <h2 class="mb-3">{{ .title | markdownify }}</h2>
+              <div class="mb-3 text-center">{{ .summary }}</div>
+              {{ if .language }}
+                <div class="mb-2">
+                  <span class="fw-bold me-1">Language:</span>
+                  <span>{{ .language }}</span>
+                </div>
+              {{ end }}
+              {{ if .location }}
+                <div class="mb-2">
+                  <span class="fw-bold me-1">Location:</span>
+                  <span>{{ .location }}</span>
+                </div>
+              {{ end }}
+              {{ if .instructors }}
+                <div>
+                  <span class="fw-bold me-1">Instructors:</span>
+                  <ul class="course-instructors p-0">
+                    {{ range where site.RegularPages "Params.email" "in" .instructors }}
+                      <li>{{ .Params.title }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            </button>
+          </h2>
+          <div id="collapse-{{ $index }}" class="accordion-collapse collapse" aria-labelledby="heading-{{ $index }}">
+            <div class="accordion-body text-center">
+              {{range .content }}
+                  <p class="mb-2">
+                    {{ range .paragraph }}
+                      <p class="mb-0">
+                        {{ . | markdownify }}
+                      </p>
+                    {{ end }}
+                  </p>
+                {{ end }}
+                {{ if .button.enable }}
+                {{ with .button }}
+                <a href="{{ .link | relURL }}" target="_blank" rel="noopener noreferrer" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
+                {{ end }}
+                {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+</div>
+</section>
+{{ end }}
+
+{{ end }}

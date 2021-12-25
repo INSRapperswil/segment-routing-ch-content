@@ -1,0 +1,33 @@
+<div class="col-xl-6 col-12 mb-5 team-card">
+    <a href="{{ .Permalink }}" class="card-link" title="{{ .Title }}">
+        <div class="strong-shadow rounded-lg p-3 mr-2 ml-2 person-card">
+            <div class="border-0 row h-50">
+                <div class="col-4">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="card-img rounded-lg">
+                </div>
+                <div class="card-body col-8">
+                    <h3>{{ .Title }}</h3>
+                    <ul class="functions">
+                        {{ range .Params.function}}
+                        <li class="card-text font-weight-bold">{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="functions">{{ .Params.academicTitle }}</div>
+                </div>
+            </div>
+            <div class="border-0 row h-50">
+                <div class="col-4"></div>
+                <div class="card-body col-8 pt-4 h-100 card-tags">
+                    <div class="overflow-hidden h-100">
+                        <ul class="d-flex flex-wrap list-unstyled">
+                            {{ range .Params.tags }}
+                                <li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="person-footer">{{ .Params.email }}</p>
+        </div>
+    </a>
+  </div>

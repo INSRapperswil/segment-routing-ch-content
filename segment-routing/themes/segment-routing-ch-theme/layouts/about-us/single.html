@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<section class="section">
+    <div class="container person">
+        <div class="row mb-5">
+            <div class="col-2">
+                <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="card-img rounded-lg mt-4">
+            </div>
+            <div class="person-title card-body col-10">
+                <h1>{{ .Title }}</h1>
+                <ul class="person-functions">
+                    {{ range .Params.function}}
+                    <li class="card-text fw-bold"><h3>{{ . }}</h3></li>
+                    {{ end }}
+                </ul>
+                <div class="fw-bold mt-3">{{ .Params.academicTitle }}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <ul class="d-flex flex-wrap list-unstyled mb-5">
+                    {{ range .Params.tags }}
+                        <li class="me-2 border border-dark p-2 rounded-pill default-cursor-on-hover">#{{ . }}</li>
+                    {{ end }}
+                </ul>
+                <div class="my-5">
+                    {{ .Content }}
+                </div>
+                {{ with .Params.certifications }}
+                    <h3>Certifications:</h3>
+                    <ul class="person-ul mb-5">
+                        {{ range . }}
+                            <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                {{ $projects := where .Site.RegularPages "Params.contributors" "intersect" (slice .Params.email)}}
+                {{ if gt (len $projects) 0 }}
+                    <h3>Projects in Segment Routing:</h3>
+                    <ul class="person-ul mb-5">
+                        {{ range $projects.ByDate.Reverse }}
+                            <li><a href="{{ .Permalink }}">[{{ .Date.Format "2006" }}] {{ .Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                <h3>Contact Information:</h3>
+                <p class="person-contact">E-Mail: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

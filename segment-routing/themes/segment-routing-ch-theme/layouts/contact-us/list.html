@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+<section class="section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        {{ .Content }}
+      </div>
+      
+      <div class="col-lg-5 content">
+        <h4 class="mb-0">{{ .Params.institute }}</h4>
+        <h5>{{ .Params.university }}</h5>
+        <div class="mb-0">{{ .Params.address }}</div>
+        <div class="mb-0">{{ .Params.city }}</div>
+        <div>{{ .Params.country }}</div>
+        <div class="row">
+          <div class="col-3">
+            <div class="mb-0">Phone:</div>
+            <div class="mb-0">WhatsApp:</div>
+            <div class="mb-2">Fax:</div>
+            <div class="mb-0">Mail:</div>
+          </div>
+          <div class="col-9">
+            <div class="mb-0">
+              <a href='tel:{{ replaceRE "(\\s)" "" .Params.phone }}'>{{ .Params.phone }}</a>
+            </div>
+            <div class="mb-0">
+              <a href='https://wa.me/{{ replaceRE "(\\s)" "" .Params.whatsapp }}' target="_blank" rel="noopener noreferrer">{{ .Params.whatsapp }}</a>
+            </div>
+            <div class="mb-2">{{ .Params.fax }}</div>
+            <div class="mb-0">
+              <a href="mailto:{{ .Params.mail }}">{{ .Params.mail }}</a>
+            </div>
+          </div>
+        </div>
+        <iframe src="{{ .Params.googleMapsEmbedUrl }}" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

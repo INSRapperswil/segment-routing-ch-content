@@ -1,0 +1,46 @@
+<!-- 
+    Required parameters:
+    - path (path to image file)
+    - alt (alternative text)
+    - caption (image caption)   
+
+    Optional parameters:
+    - source (if the image has been copied from somewhere)
+    - width (width of image in pixels, rem, percentage, etc. )
+    - position (can be one of these values: 'leftInText' | 'rightInText')
+ -->
+
+<div style="display: flow-root;">
+    <figure{{ if .Get "class" }} class="customFigure {{ .Get "class" }}"{{ else }} class="customFigure"{{ end }}>
+        {{- if .Get "link" -}}
+            <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+        {{- end -}}
+        <a href="{{ .Get "src" }}">
+            <img src="{{ .Get "src" }}"
+                {{- if or (.Get "alt") (.Get "caption") }}
+                alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+                {{- end -}}
+                {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+                {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+                {{ with .Get "imgClass" }} class="{{ . }}"{{ end }}
+            /><!-- Closing img tag -->
+        </a>
+        {{- if .Get "link" }}</a>{{ end -}}
+        {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+            <figcaption>
+                {{ with (.Get "title") -}}
+                    <h4>{{ . }}</h4>
+                {{- end -}}
+                {{- if or (.Get "caption") (.Get "attr") -}}<p>
+                    {{- .Get "caption" | markdownify -}}
+                    {{- with .Get "attrlink" }}
+                        <a href="{{ . }}">
+                    {{- end -}}
+                    {{- .Get "attr" | markdownify -}}
+                    {{- if .Get "attrlink" }}</a>{{ end }}</p>
+                {{- end }}
+            </figcaption>
+        {{- end }}
+    </figure>
+    {{ .Inner }}
+</div>

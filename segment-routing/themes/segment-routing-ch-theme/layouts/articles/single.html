@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <div class="text-end mb-5">
+          <h3>{{ .Date.Format "January 2, 2006" }}</h3>
+        </div>
+        <div class="content ">
+          {{ .Content }}
+        </div>
+        <div class="contributers mt-5">
+          <div class="row mt-5 justify-content-md-center">
+            <h2 class="text-center">Authors</h2>
+          </div>
+          <div class="row mt-5 justify-content-md-center">
+              {{ range where .Site.RegularPages "Params.email" "in" .Params.authors }}
+                  {{ partial "team-member-card.html" . }}
+              {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
