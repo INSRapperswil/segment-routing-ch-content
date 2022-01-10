@@ -1,74 +1,28 @@
-# segment-routing-ch-source
+# segment-routing.ch.github.io
 This repository contains the source code of the website https://www.segment-routing.ch.
 This website has been built with [Hugo](https://gohugo.io/) and is deployed as a GitHub Pages site.
 
-## GitHub Pages
-The website is hosted by GitHub Pages in this repository:  
-https://github.com/INSRapperswil/segment-routing-ch.github.io
-This repository has been added as a submodule to the folder `segment-routing/public` of this project.
-
-## Theme
-The theme of the website is managed by this repository:  
-https://github.com/INSRapperswil/segment-routing-ch-theme
-This repository has been added as a submodule to the folder `segment-routing/themes/segment-routing-ch-theme` of this project.
-
-## DevOps
-Making changes to the website's content or styling is all done through this repository. The repositories `segment-routing-ch.github.io` and `segment-routing-ch-theme` are both added to this project as submodules and do not have to be pulled seperately.
-The image below illustrates the DevOps of this project.
-
-![DevOps Diagram](https://raw.githubusercontent.com/INSRapperswil/segment-routing-ch-source/master/images/dev-ops-diagram.png)
-
-
-## Setting Up the Development Environment
-Follow these steps to setup the development environment. This is required to make changes to the website's content and styling.
-
-### Install Hugo
-Install `hugo` on your computer by following the [official guide](https://gohugo.io/getting-started/installing/).
-Some package managers (including `apt` as of the moment) do not have the latest version of hugo, so make sure to check the version you have with
-```bash
-hugo version
-```
-You need at least version `0.79` for this project. If you do not have at least this version, you may need to install hugo manually.
-
-#### Manual Installation
-Go to [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download the latest version for you operating system.  
-**Important!** You need to use the **extended** version, otherwise the compiler does not automatically compile `.scss` files.
-
-For example for Linux, choose the latest version (currently `hugo_extended_0.86.1_Linux-64bit.deb`) and run these commands:
-```bash
-wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
-sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
-```
-
-### Clone & Initialize the Repository
-First, clone this repository:
-```bash
-git clone git@github.com:INSRapperswil/segment-routing-ch-source.git
-```
-Then initialize and update the submodules by running the `init-dev-env.sh` script:
-```bash
-cd segment-routing-ch-source
-./init-dev-env.sh
-```
-
-## Important! Commiting to This Repository
-Always remeber to commit your changes to this (the source) repository as well. It is easy to forget, after having deployed the website.
-When commiting to this repository, it is important that you are <ins>**not**</ins> in one of these to folders:
-- `segment-routing/public`
-- `segment-routing/themes/segment-routing-ch-theme`
-
-These folders contain submodules, which are git repositories themselves.
-
 ## Making Changes to the Website
-Making changes to the website requires the development environment to be setup (see chapter [Setting Up the Development Environment](#setting-up-the-development-environment)).
+To make changes to the website, first clone this repository with:
+
+```bash
+git clone git@github.com:INSRapperswil/segment-routing.ch.github.io.git
+```
+
+Then update the content according to the chapters below:
+
+- [Important Folders](#important-folders)
+- [Creating a New Article or Project](#creating-a-new-article-or-project)
+- [Front Matter](#front-matter)
+- [Managing Team Members](#managing-team-members)
+
+Finally, push your changes to the main branch. The changes will automatically be deployed.
 
 ### Important Folders
 For most basic operations (such as adding and editing articles or projects) only two directories are important:  
-`segment-routing/content/english` and `segment-routing/static/images`
+`content/english/` and `static/images/`
 
-
-
-- `segment-routing/content/english` contains all content related Markdown-files. They are organized in folders such as `articles` and `projects`.
+- `content/english/` contains all content related Markdown-files. They are organized in folders such as `articles` and `projects`.
 
 		segment-routing/content/english/
 		├── _index.md
@@ -82,7 +36,7 @@ For most basic operations (such as adding and editing articles or projects) only
 		    ├── project-1.md
 		    ├── project-2.md
 		    └── project-3.md
-- `segment-routing/static/images` contains the images for the articles and projects. They are organized in folders that match the Markdown-Filename.
+- `static/images/` contains the images for the articles and projects. They are organized in folders that match the Markdown-Filename.
 		
 		segment-routing/static/images	
 		├── articles
@@ -115,9 +69,11 @@ Run one of these commands in the root directory of the project ...
 	```
 Make sure to replace `<file-name>` with a new and unique name.
 
+Alternatively, simply copy and paste existing articles or projects. Make sure to set the date correctly in the [front matter](#front-matter).
+
 Now you can edit the Markdown-File and add your content. You can store your images according to the folder structure described in the chapter [Important Folders](#important-folders).
 
-#### Front Matter
+### Front Matter
 At the top of the file you will see code that is enveloped by `---` that looks something like this:
 ```yaml
 ---
@@ -131,7 +87,7 @@ draft: false
 buttonLabel: "Read more"
 ---
 ```
-This is called front matter, and is simply the files metadata written in `YAML`.  You can manually update this values according to your needs.
+This is called front matter and is simply the files metadata written in `YAML`.  You can manually update these values according to your needs.
 - `title`
 	- The title of your article or project.
 - `date`
@@ -148,35 +104,41 @@ This is called front matter, and is simply the files metadata written in `YAML`.
 - `description`
 	- This string is the meta description that is used by search engines to provide users with more information on the website.
 
-<img src="https://raw.githubusercontent.com/INSRapperswil/segment-routing-ch-source/master/images/meta-description.png" alt="Meta Description" width="800px"/>
+<img src="https://raw.githubusercontent.com/INSRapperswil/segment-routing.ch.github.io/master/repo-img/meta-description.png" alt="Meta Description" width="800px"/>
 
 - `draft`
 	- If set to `true`, it will only show up during development, but not when the website is deployed. Even if a draft is pushed to the deployment server, it is not accessible through the internet.
 - `buttonLabel`
 	- The label of the buttons in overview pages. This can be any string, such as `"Read more"` or `"Check it out"`.
 
-### Testing the Website
-To see test the website locally before deploying it, `cd` into the website folder and start a local server:
+### Managing Team Members
+To update information on existing team members simply edit the files in `content/english/ins/about-us/`.
+
+You can add a new team members by copying and pasting an existing team member.
+
+## Building the website locally
+If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](#install-hugo) on your machine and then run (in the root of the project directory):
+
 ```bash
-cd segment-routing
 hugo server
 ```
-This will start a webserver on http://localhost:1313
 
-### Deploying the Website
-Once you are happy with your changes, you can build and deploy the website. In the root of the project, run this command:
+Finally, visit the website at http://localhost:1313/.
+
+### Install Hugo
+Install `hugo` on your computer by following the [official guide](https://gohugo.io/getting-started/installing/).
+Some package managers (including `apt` as of the moment) do not have the latest version of hugo, so make sure to check the version you have with
 ```bash
-./deploy-site.sh "Provide a commit message"
+hugo version
 ```
-This will build the website and then push the content of the directory `segment-routing/public` to the GitHub Pages repository `segment-routing-ch.github.io`.
-Finally, it will commit all your changes to both the theme repository and the content repository (this one).
+You need at least version `0.79` for this project. If you do not have at least this version, you may need to install hugo manually.
 
-## Updating the Theme
-If you want to make changes to the styling or otherwise update the theme, you can do so by editing the files in `segment-routing/themes/segment-routing-ch-theme`.
+#### Manual Installation
+Go to [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download the latest version for you operating system.  
+**Important!** You need to use the **extended** version, otherwise the compiler does not automatically compile `.scss` files.
 
-Once you have made your changes, you need to remember to commit them to the themes repository. To do that, run this command in the root of the project:
+For example for Linux, choose the latest version (currently `hugo_extended_0.86.1_Linux-64bit.deb`) and run these commands:
 ```bash
-./commit-theme-changes.sh
+wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
+sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
 ```
-
-<ins>**Important! Even if you made changes only to the theme, you still need to commit your changes to this repository (the source repository) as well, because the submodule must is now pointing to the new HEAD.**</ins>
