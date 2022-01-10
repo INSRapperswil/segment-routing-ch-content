@@ -117,7 +117,7 @@ To update information on existing team members simply edit the files in `content
 You can add a new team members by copying and pasting an existing team member.
 
 ## Building the Website Locally
-If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](#install-hugo) on your machine and then run (in the root of the project directory):
+If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](https://gohugo.io/) on your machine and then run (in the root of the project directory):
 
 ```bash
 hugo server
@@ -125,7 +125,7 @@ hugo server
 
 Finally, visit the website at http://localhost:1313/.
 
-### Install Hugo
+### Installing Hugo
 Install `hugo` on your computer by following the [official guide](https://gohugo.io/getting-started/installing/).
 Some package managers (including `apt` as of the moment) do not have the latest version of hugo, so make sure to check the version you have with
 ```bash
@@ -139,6 +139,6 @@ Go to [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download th
 
 For example for Linux, choose the latest version (currently `hugo_extended_0.86.1_Linux-64bit.deb`) and run these commands:
 ```bash
-wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
-sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
+$ wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
+$ sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
 ```
