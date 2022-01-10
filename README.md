@@ -125,7 +125,7 @@ hugo server
 
 Finally, visit the website at http://localhost:1313/.
 
-### Install Hugo
+### Installing Hugo
 Install `hugo` on your computer by following the [official guide](https://gohugo.io/getting-started/installing/).
 Some package managers (including `apt` as of the moment) do not have the latest version of hugo, so make sure to check the version you have with
 ```bash
