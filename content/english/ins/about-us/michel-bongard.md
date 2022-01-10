@@ -18,7 +18,7 @@ certifications:
 tags: 
   - "full-stack"
   - "react"
-  - "c#"
+  - "csharp"
   - "segmentrouting"
   - "typescript"
   - "java"
