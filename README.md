@@ -117,7 +117,7 @@ To update information on existing team members simply edit the files in `content
 You can add a new team members by copying and pasting an existing team member.
 
 ## Building the Website Locally
-If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](#install-hugo) on your machine and then run (in the root of the project directory):
+If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](https://gohugo.io/) on your machine and then run (in the root of the project directory):
 
 ```bash
 hugo server
