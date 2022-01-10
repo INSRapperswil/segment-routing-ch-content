@@ -20,7 +20,7 @@ certifications:
 tags:
   - "python" 
   - ".net"
-  - "c#"
+  - "csharp"
   - "grpc"
   - "segmentrouting"
   - "golang"
