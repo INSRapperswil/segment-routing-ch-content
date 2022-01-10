@@ -139,6 +139,6 @@ Go to [Hugo Releases](https://github.com/gohugoio/hugo/releases) and download th
 
 For example for Linux, choose the latest version (currently `hugo_extended_0.86.1_Linux-64bit.deb`) and run these commands:
 ```bash
-wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
-sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
+$ wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_extended_0.86.1_Linux-64bit.deb
+$ sudo dpkg --install ./hugo_extended_0.86.1_Linux-64bit.deb
 ```
