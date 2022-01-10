@@ -1,6 +1,6 @@
 # segment-routing.ch.github.io
 This repository contains the source code of the website https://www.segment-routing.ch.
-This website has been built with [Hugo](https://gohugo.io/) and is deployed as a GitHub Pages site.
+This website has been built with [Hugo](https://gohugo.io/) and is deployed using GitHub Pages.
 
 ## Making Changes to the Website
 To make changes to the website, first clone this repository with:
@@ -18,13 +18,15 @@ Then update the content according to the chapters below:
 
 Finally, push your changes to the main branch. The changes will automatically be deployed.
 
+If you want to view your changes before deploying, see chapter [Building the Website Locally](#building-the-website-locally).
+
 ### Important Folders
 For most basic operations (such as adding and editing articles or projects) only two directories are important:  
 `content/english/` and `static/images/`
 
 - `content/english/` contains all content related Markdown-files. They are organized in folders such as `articles` and `projects`.
 
-		segment-routing/content/english/
+		content/english/
 		├── _index.md
 		├── articles
 		│   ├── _index.md
@@ -38,7 +40,7 @@ For most basic operations (such as adding and editing articles or projects) only
 		    └── project-3.md
 - `static/images/` contains the images for the articles and projects. They are organized in folders that match the Markdown-Filename.
 		
-		segment-routing/static/images	
+		static/images	
 		├── articles
 		│   ├── article-1
 		│   │   ├── article-1-1.jpg
@@ -59,12 +61,10 @@ For most basic operations (such as adding and editing articles or projects) only
 Run one of these commands in the root directory of the project ...
 - to create a new <ins>new article</ins>:
 	```bash
-	cd segment-routing
 	hugo new --kind article content/english/articles/<file-name>.md
 	```
 - to create a new <ins>new project</ins>:
 	```bash
-	cd segment-routing
 	hugo new --kind project content/english/projects/<file-name>.md
 	```
 Make sure to replace `<file-name>` with a new and unique name.
@@ -116,7 +116,7 @@ To update information on existing team members simply edit the files in `content
 
 You can add a new team members by copying and pasting an existing team member.
 
-## Building the website locally
+## Building the Website Locally
 If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](#install-hugo) on your machine and then run (in the root of the project directory):
 
 ```bash
