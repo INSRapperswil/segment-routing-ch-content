@@ -15,10 +15,7 @@ Then update the content according to the chapters below:
 - [Creating a New Article or Project](#creating-a-new-article-or-project)
 - [Front Matter](#front-matter)
 - [Managing Team Members](#managing-team-members)
-
-Finally, push your changes to the main branch. The changes will automatically be deployed.
-
-If you want to view your changes before deploying, see chapter [Building the Website Locally](#building-the-website-locally).
+- [Deploying your changes](#deploying-your-changes)
 
 ### Important Folders
 For most basic operations (such as adding and editing articles or projects) only two directories are important:  
@@ -115,6 +112,11 @@ This is called front matter and is simply the files metadata written in `YAML`. 
 To update information on existing team members simply edit the files in `content/english/ins/about-us/`.
 
 You can add a new team members by copying and pasting an existing team member.
+
+### Deploying your changes
+Once you are happy with your changes, push your commits to the main branch. The changes will automatically be deployed.
+
+If you want to view your changes before deploying, see chapter [Building the Website Locally](#building-the-website-locally).
 
 ## Building the Website Locally
 If you make larger changes to the website and whish to build the website locally before deploying, you will have to install [Hugo](https://gohugo.io/) on your machine and then run (in the root of the project directory):
