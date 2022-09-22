@@ -17,6 +17,7 @@ certifications:
   - "CCNA R&S"
   - "CCNP R&S"
   - "CCNA Instructor"
+  - "CKA"
 tags:
   - "python" 
   - ".net"

@@ -15,6 +15,7 @@ function:
 academicTitle: "Professor for Internet Infrastructure"
 certifications:
   - "CKA"
+  - "CKAD"
   - "AWS Accredited Instructor"
   - "AWS Certified Cloud Practitioner"
   - "SysOps Administrator Associate and Solutions Architect Associate"
