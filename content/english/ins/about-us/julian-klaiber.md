@@ -3,7 +3,7 @@ title: "Julian Klaiber"
 draft: false
 type: about-us
 # post image
-image: "/images/ins/about-us/julian-klaiber.png"
+image: "/images/ins/about-us/julian-klaiber.jpg"
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
 description: "Network and Research Engineer at INS Institute for Networked Solutions in eastern Switzerland."
@@ -21,11 +21,11 @@ certifications:
 tags: 
   - "cloudnative"
   - "kubernetes"
+  - "golang"
+  - "linux"
   - "segmentrouting"
   - "python"
   - "docker"
   - "ansible"
   - "devops"
-  - "golang"
-  - "linux"
 ---
