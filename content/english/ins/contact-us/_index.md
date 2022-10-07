@@ -3,7 +3,7 @@ title: "Contact Us"
 subtitle: ""
 # This is the meta description used by search engines (see https://moz.com/learn/seo/meta-description)
 # Recommended length: 50–160 characters (Google truncates snippets to ~155–160 characters)
-description: "Contact us at the INS Institute for Networked Solutions of the OST – Eastern Switzerland University of Applied Sciences."
+description: "Contact us at the INS Institute for Network and Security of the OST – Eastern Switzerland University of Applied Sciences."
 draft: false
 type: contact-us
 
@@ -11,7 +11,7 @@ phone: "+41 55 222 18 38"
 whatsapp: "+41 55 222 18 38"
 fax: "+41 55 222 42 70"
 mail: "cloud-networking@ost.ch"
-institute: "INS Institute for Networked Solutions"
+institute: "INS Institute for Network and Security"
 university: "OST – Eastern Switzerland University of Applied Sciences"
 address: "Oberseestrasse 10"
 city: "8640 Rapperswil"
@@ -21,7 +21,7 @@ googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1354.
 ---
 
 ### Our Campus
-The INS Institute of Networked Solutions of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> is based in Switzerland, sitting between the train station of Rapperswil and the lake Obersee. The university is located less than a minute on foot from the train station.
+The INS Institute of Network and Security of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> is based in Switzerland, sitting between the train station of Rapperswil and the lake Obersee. The university is located less than a minute on foot from the train station.
 
 {{< slider "/images/ost-campus/ost-campus-1.jpg" "/images/ost-campus/ost-campus-2.jpg" "/images/ost-campus/ost-campus-3.jpg" >}}
 

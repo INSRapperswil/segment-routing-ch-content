@@ -12,8 +12,8 @@ ins:
   
 ---
 
-### INS Institute for Networked Solutions
-The INS Institute for Networked Solutions of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> combines the expertise of various fields. Our staff is constantly immersing itself into the newest technologies and trends to advance innovative and progressive solutions. The institute is comprised of these four competence centers:
+### INS Institute for Network and Security
+The INS Institute for Network and Security of the <a href="https://www.ost.ch/en/" target="_blank" rel="noopener noreferrer">OST – Eastern Switzerland University of Applied Sciences</a> combines the expertise of various fields. Our staff is constantly immersing itself into the newest technologies and trends to advance innovative and progressive solutions. The institute is comprised of these four competence centers:
 - Software Engineering
 - Cloud Networking
 - Network Automation

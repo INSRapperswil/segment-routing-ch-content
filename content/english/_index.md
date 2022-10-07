@@ -8,7 +8,7 @@ banner:
   title : "Segment Routing by INS"
   logo: "/images/logo.png"
   image : "/images/homepage-banner.png"
-  content : "At the INS Institute for Networked Solutions in Eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
+  content : "At the INS Institute for Network and Security in Eastern Switzerland we focus on applied Segment Routing. We provide courses in Segment Routing and lead multiple projects for the development of Segment Routing Applications."
 
 ##################### Feature ##########################
 feature:
