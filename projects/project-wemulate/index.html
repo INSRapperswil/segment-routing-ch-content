@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>Severin Dellsperger</title>
+<title>WEmulate</title>
 <base href=https://segment-routing.ch>
 <meta name=author content="INSRapperswil">
 <meta name=generator content="Hugo 0.86.1">
@@ -10,20 +10,23 @@
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5">
 <meta name=msapplication-TileColor content="#0064A3">
 <meta name=theme-color content="#fff">
-<meta property="og:image" content="https://segment-routing.ch/images/ins/about-us/severin-dellsperger.png">
-<meta property="og:image:width" content="130">
-<meta property="og:image:height" content="130">
+<meta property="og:image" content="https://segment-routing.ch/images/projects/project-wemulate/wemulate_logo.png">
+<meta name=twitter:image content="https://segment-routing.ch/images/projects/project-wemulate/wemulate_logo.png">
+<meta name=twitter:card content="summary_large_image">
+<meta property="og:image:width" content="1603">
+<meta property="og:image:height" content="515">
 <meta property="og:image:type" content="image/png">
-<meta name=twitter:title content="Severin Dellsperger">
-<meta name=twitter:description content="Network and Research Engineer at INS Institute for Networked Solutions in eastern Switzerland.">
-<meta property="og:title" content="Severin Dellsperger">
-<meta property="og:description" content="Network and Research Engineer at INS Institute for Networked Solutions in eastern Switzerland.">
+<meta name=twitter:title content="WEmulate">
+<meta name=twitter:description content="WEmulate is a simple and modern WAN emulator, developed to fulfill the needs of students and network engineers.">
+<meta property="og:title" content="WEmulate">
+<meta property="og:description" content="WEmulate is a simple and modern WAN emulator, developed to fulfill the needs of students and network engineers.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://segment-routing.ch/ins/about-us/severin-dellsperger/"><meta property="article:section" content="ins">
-<meta property="og:site_name" content="Segment Routing by INS">
+<meta property="og:url" content="https://segment-routing.ch/projects/project-wemulate/"><meta property="article:section" content="projects">
+<meta property="article:published_time" content="2022-10-01T08:00:00+02:00">
+<meta property="article:modified_time" content="2022-10-01T00:00:00+00:00"><meta property="og:site_name" content="Segment Routing by INS">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Severin Dellsperger">
-<meta name=twitter:description content="Network and Research Engineer at INS Institute for Networked Solutions in eastern Switzerland.">
+<meta name=twitter:title content="WEmulate">
+<meta name=twitter:description content="WEmulate is a simple and modern WAN emulator, developed to fulfill the needs of students and network engineers.">
 <meta http-equiv=x-dns-prefetch-control content="on">
 <link rel=preconnect href=//ajax.googleapis.com>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin=anonymous>
@@ -88,43 +91,198 @@ INS
 </div>
 </header>
 <main>
+<section class="section pb-0">
+<div class="container text-center">
+<h1 class=display-3>WEmulate</h1>
+</div>
+</section>
 <section class=section>
-<div class="container person">
-<div class="row mb-5">
-<div class=col-2>
-<img src=/images/ins/about-us/severin-dellsperger.png alt="Severin Dellsperger" class="card-img rounded-lg mt-4">
-</div>
-<div class="person-title card-body col-10">
-<h1>Severin Dellsperger</h1>
-<ul class=person-functions>
-<li class="card-text fw-bold"><h3>Network and Research Engineer</h3></li>
-</ul>
-<div class="fw-bold mt-3">BSc. FHO in Computer Science</div>
-</div>
-</div>
+<div class=container>
 <div class=row>
-<div class=col-8>
-<ul class="d-flex flex-wrap list-unstyled mb-5">
-<li class="me-2 border border-dark p-2 rounded-pill default-cursor-on-hover">#cloudnative</li>
-<li class="me-2 border border-dark p-2 rounded-pill default-cursor-on-hover">#python</li>
-<li class="me-2 border border-dark p-2 rounded-pill default-cursor-on-hover">#segmentrouting</li>
-</ul>
-<div class=my-5>
+<div class="col-lg-12 mx-auto">
+<div class="text-end mb-5">
+<h3>Kickoff: October 1, 2022</h3>
+<h5>Last Modified: October 1, 2022</h5>
 </div>
-<h3>Certifications:</h3>
-<ul class="person-ul mb-5">
-<li>CCNA R&S</li>
-<li>CCNA Instructor</li>
-<li>CKA</li>
+<div class=content><h2 id=introduction>Introduction</h2>
+<p>All Computer Science students at the Eastern Switzerland University of Applied Sciences (<a href=https://www.ost.ch/ target=_blank rel="noopener noreferrer">OST</a>) must work on the so-called &ldquo;SE Project.&rdquo;
+This module focuses not on the product itself but on project management and how to work in a team. Nevertheless, four students wanted to develop something close to the network that could be useful in the future. Since we knew that we would have to perform a live cycle of our WAN emulator appliance in the network lab, it was agreed with the students that an alternative based on open-source components should be developed.</p>
+<p>After the project was completed, the project &ldquo;WEmulate&rdquo; was further developed at the Institute for Networks and Security and has been in use in the classroom for the last year. WEmulate can be installed on hardware or used as a virtual appliance.</p>
+<p>With version 2.0, the project has now been better anchored in the open-source community, and the product is already being used worldwide.
+<br></p>
+<h2 id=wemulate-modules>WEmulate Modules</h2>
+<p>The project was built with a module-based approach in mind. Because we are using WEmulate a lot in virtual environments, the goal was to deliver a CLI tool. With the need to use the application together with our students in the lab, we decided to create also an API and Frontend module that provides an easy-to-understand graphical interface to the students.</p>
+<p>The CLI module provides the whole core module of WEmulate. Therefore it handles all the requests from the API module with its Python packages. The module was written with modern and straightforward frameworks.</p>
+<div style=display:flow-root>
+<figure class=customFigure><a href=/images/projects/project-wemulate/animation-wemulate-cli.gif>
+<img src=/images/projects/project-wemulate/animation-wemulate-cli.gif alt="WEmulate CLI Application" width=1000px>
+</a><figcaption>
+<p>WEmulate CLI Application</p>
+</figcaption>
+</figure>
+</div>
+<p>The Frontend module is designed to give students a fast and easy way to set disturbances in the network. The whole WEmulate stack (CLI, API, and Frontend) is used in the two computer network modules at the OST.</p>
+<div style=display:flow-root>
+<figure class=customFigure><a href=/images/projects/project-wemulate/animation-wemulate-frontend.gif>
+<img src=/images/projects/project-wemulate/animation-wemulate-frontend.gif alt="WEmulate Frontend Application" width=1000px>
+</a><figcaption>
+<p>WEmulate Frontend Application</p>
+</figcaption>
+</figure>
+</div>
+<h2 id=open-source>Open Source</h2>
+<p>Since the project is open-source and available on GitHub, please do not hesitate to look at it and contribute!
+You can also always contact one of the contributors to get more information about the project.</p>
+<p>The following links can be helpful:</p>
+<ul>
+<li><a href=https://github.com/wemulate/ target=_blank rel="noopener noreferrer">GitHub Project Site</a></li>
+<li><a href=https://github.com/wemulate/wemulate/ target=_blank rel="noopener noreferrer">CLI Module</a></li>
+<li><a href=https://github.com/wemulate/wemulate-api target=_blank rel="noopener noreferrer">API Module</a></li>
+<li><a href=https://github.com/wemulate/wemulate-frontend target=_blank rel="noopener noreferrer">Frontend Module</a></li>
+<li><a href=https://wemulate.github.io/wemulate target=_blank rel="noopener noreferrer">Documentation</a></li>
 </ul>
-<h3>Projects in Segment Routing:</h3>
-<ul class="person-ul mb-5">
-<li><a href=https://segment-routing.ch/projects/project-wemulate/>[2022] WEmulate</a></li>
-<li><a href=https://segment-routing.ch/projects/project-jagw/>[2021] Jalapeño API Gateway</a></li>
-<li><a href=https://segment-routing.ch/projects/project-serpro/>[2021] SR-App: Service Programming</a></li>
+</div>
+<div class=contributers>
+<h2>Contributors</h2>
+<div class="row mt-5 justify-content-md-center">
+<div class="col-xl-6 col-12 mb-5 team-card">
+<a href=https://segment-routing.ch/ins/about-us/julian-klaiber/ class=card-link title="Julian Klaiber">
+<div class="strong-shadow rounded-lg p-3 mr-2 ml-2 person-card">
+<div class="border-0 row h-50">
+<div class=col-4>
+<img src=/images/ins/about-us/julian-klaiber.jpg alt="Julian Klaiber" class="card-img rounded-lg">
+</div>
+<div class="card-body col-8">
+<h3>Julian Klaiber</h3>
+<ul class=functions>
+<li class="card-text font-weight-bold">Network and Research Engineer</li>
 </ul>
-<h3>Contact Information:</h3>
-<p class=person-contact>E-Mail: <a href=mailto:severin.dellsperger@ost.ch>severin.dellsperger@ost.ch</a></p>
+<div class=functions>BSc. FHO in Computer Science</div>
+</div>
+</div>
+<div class="border-0 row h-50">
+<div class=col-4></div>
+<div class="card-body col-8 pt-4 h-100 card-tags">
+<div class="overflow-hidden h-100">
+<ul class="d-flex flex-wrap list-unstyled">
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">cloudnative</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">kubernetes</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">golang</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">linux</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">segmentrouting</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">python</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">docker</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">ansible</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">devops</li>
+</ul>
+</div>
+</div>
+</div>
+<p class=person-footer>julian.klaiber@ost.ch</p>
+</div>
+</a>
+</div>
+<div class="col-xl-6 col-12 mb-5 team-card">
+<a href=https://segment-routing.ch/ins/about-us/severin-dellsperger/ class=card-link title="Severin Dellsperger">
+<div class="strong-shadow rounded-lg p-3 mr-2 ml-2 person-card">
+<div class="border-0 row h-50">
+<div class=col-4>
+<img src=/images/ins/about-us/severin-dellsperger.png alt="Severin Dellsperger" class="card-img rounded-lg">
+</div>
+<div class="card-body col-8">
+<h3>Severin Dellsperger</h3>
+<ul class=functions>
+<li class="card-text font-weight-bold">Network and Research Engineer</li>
+</ul>
+<div class=functions>BSc. FHO in Computer Science</div>
+</div>
+</div>
+<div class="border-0 row h-50">
+<div class=col-4></div>
+<div class="card-body col-8 pt-4 h-100 card-tags">
+<div class="overflow-hidden h-100">
+<ul class="d-flex flex-wrap list-unstyled">
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">cloudnative</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">python</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">segmentrouting</li>
+</ul>
+</div>
+</div>
+</div>
+<p class=person-footer>severin.dellsperger@ost.ch</p>
+</div>
+</a>
+</div>
+<div class="col-xl-6 col-12 mb-5 team-card">
+<a href=https://segment-routing.ch/ins/about-us/fabian-thurnheer/ class=card-link title="Fabian Thurnheer">
+<div class="strong-shadow rounded-lg p-3 mr-2 ml-2 person-card">
+<div class="border-0 row h-50">
+<div class=col-4>
+<img src=/images/ins/about-us/fabian-thurnheer.jpg alt="Fabian Thurnheer" class="card-img rounded-lg">
+</div>
+<div class="card-body col-8">
+<h3>Fabian Thurnheer</h3>
+<ul class=functions>
+<li class="card-text font-weight-bold">Network Engineer</li>
+</ul>
+<div class=functions>BSc. FHO in Computer Science</div>
+</div>
+</div>
+<div class="border-0 row h-50">
+<div class=col-4></div>
+<div class="card-body col-8 pt-4 h-100 card-tags">
+<div class="overflow-hidden h-100">
+<ul class="d-flex flex-wrap list-unstyled">
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">nodejs</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">typescript</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">react</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">python</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">docker</li>
+</ul>
+</div>
+</div>
+</div>
+<p class=person-footer>fabian.thurnheer@ost.ch</p>
+</div>
+</a>
+</div>
+<div class="col-xl-6 col-12 mb-5 team-card">
+<a href=https://segment-routing.ch/ins/about-us/urs-baumann/ class=card-link title="Urs Baumann">
+<div class="strong-shadow rounded-lg p-3 mr-2 ml-2 person-card">
+<div class="border-0 row h-50">
+<div class=col-4>
+<img src=/images/ins/about-us/urs-baumann.jpg alt="Urs Baumann" class="card-img rounded-lg">
+</div>
+<div class="card-body col-8">
+<h3>Urs Baumann</h3>
+<ul class=functions>
+<li class="card-text font-weight-bold">Network Engineer</li>
+</ul>
+<div class=functions>BSc. FHO in Computer Science</div>
+</div>
+</div>
+<div class="border-0 row h-50">
+<div class=col-4></div>
+<div class="card-body col-8 pt-4 h-100 card-tags">
+<div class="overflow-hidden h-100">
+<ul class="d-flex flex-wrap list-unstyled">
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">instructor</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">network-automation</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">infrastructureascode</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">IaC</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">python</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">nornir</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">ansible</li>
+<li class="me-1 prepend-hashtag tag-item border border-dark p-1 rounded-pill">devops</li>
+</ul>
+</div>
+</div>
+</div>
+<p class=person-footer>urs.baumann@ost.ch</p>
+</div>
+</a>
+</div>
+</div>
 </div>
 </div>
 </div>
